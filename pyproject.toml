@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "launcher-meta"
+version = "0.1.0"
+description = ""
+authors = ["cofob <cofob@riseup.net>"]
+readme = "README.md"
+packages = [{include = "launcher_meta"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tqdm = "^4.64.1"
+requests = "^2.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
