@@ -80,8 +80,9 @@ def main(url, version_id):
   print("Downloading libraries...")
 
   for library in tqdm(manifest['libraries']):
-    if library['downloads']['artifact']['sha1'] not in cid_db:
-      download(library['downloads']['artifact']['url'], ASSET_PATH / "libraries" / library['downloads']['artifact']['sha1'])
+    if library['downloads'].get('artifact', None) is not None:
+      if library['downloads']['artifact']['sha1'] not in cid_db:
+        download(library['downloads']['artifact']['url'], ASSET_PATH / "libraries" / library['downloads']['artifact']['sha1'])
 
     for classifier in library['downloads'].get('classifiers', {}):
       if library['downloads']["classifiers"][classifier]['sha1'] not in cid_db:
@@ -109,8 +110,9 @@ def main(url, version_id):
 
     # Add libraries
     for library in tqdm(manifest['libraries']):
-      if library['downloads']['artifact']['sha1'] not in cid_db:
-        cid_db[library['downloads']['artifact']['sha1']] = cid + "/libraries/" + library['downloads']['artifact']['sha1']
+      if library['downloads'].get('artifact', None) is not None:
+        if library['downloads']['artifact']['sha1'] not in cid_db:
+          cid_db[library['downloads']['artifact']['sha1']] = cid + "/libraries/" + library['downloads']['artifact']['sha1']
 
       for classifier in library['downloads'].get('classifiers', {}):
         if library['downloads']["classifiers"][classifier]['sha1'] not in cid_db:
@@ -158,8 +160,9 @@ def main(url, version_id):
 
 
   for library in manifest['libraries']:
-    del library['downloads']['artifact']['url']
-    library['downloads']['artifact']['path'] = cid_db[library['downloads']['artifact']['sha1']]
+    if library['downloads'].get('artifact', None) is not None:
+      del library['downloads']['artifact']['url']
+      library['downloads']['artifact']['path'] = cid_db[library['downloads']['artifact']['sha1']]
 
     for classifier in library['downloads'].get('classifiers', {}):
       del library['downloads']["classifiers"][classifier]['url']
