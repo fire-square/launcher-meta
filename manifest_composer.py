@@ -167,7 +167,7 @@ def main(url, version_id):
 
   # Save manifest
   print("Saving manifest...")
-  with open("versions/" + version_id + ".json", "w") as f:
+  with open("net.minecraft/" + version_id + ".json", "w") as f:
     dump(manifest, f, indent=2)
 
   # Save cid_db
