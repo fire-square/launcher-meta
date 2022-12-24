@@ -1,0 +1,464 @@
+{
+  "assetIndex": {
+    "id": "1.12",
+    "sha1": "3a86e8d665eb71d184ec66a0db31a307efe3831a",
+    "size": 325846,
+    "totalSize": 129336389,
+    "path": "bafkreifkiznjod7luomsi2s7xumqnrq2wpst54mxgemeu2x4ofua5kuspa"
+  },
+  "compatibleJavaMajors": [
+    8
+  ],
+  "formatVersion": 1,
+  "libraries": [
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "eb8bb7b66fa0e2152b1b40b3856e82f7619439ee",
+          "size": 23581,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/eb8bb7b66fa0e2152b1b40b3856e82f7619439ee"
+        }
+      },
+      "name": "com.mojang:patchy:1.3.9"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "9ddf7b048a8d701be231c0f4f95fd986198fd2d8",
+          "size": 30973,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/9ddf7b048a8d701be231c0f4f95fd986198fd2d8"
+        }
+      },
+      "name": "oshi-project:oshi-core:1.1"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "cb208278274bf12ebdb56c61bd7407e6f774d65a",
+          "size": 1091208,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/cb208278274bf12ebdb56c61bd7407e6f774d65a"
+        }
+      },
+      "name": "net.java.dev.jna:jna:4.4.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "e3f70017be8100d3d6923f50b3d2ee17714e9c13",
+          "size": 913436,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/e3f70017be8100d3d6923f50b3d2ee17714e9c13"
+        }
+      },
+      "name": "net.java.dev.jna:platform:3.4.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "63d216a9311cca6be337c1e458e587f99d382b84",
+          "size": 1634692,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/63d216a9311cca6be337c1e458e587f99d382b84"
+        }
+      },
+      "name": "com.ibm.icu:icu4j-core-mojang:51.2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a",
+          "size": 78175,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a"
+        }
+      },
+      "name": "net.sf.jopt-simple:jopt-simple:5.0.3"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "c73b5636faf089d9f00e8732a829577de25237ee",
+          "size": 103871,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/c73b5636faf089d9f00e8732a829577de25237ee"
+        }
+      },
+      "name": "com.paulscode:codecjorbis:20101023"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "12f031cfe88fef5c1dd36c563c0a3a69bd7261da",
+          "size": 5618,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/12f031cfe88fef5c1dd36c563c0a3a69bd7261da"
+        }
+      },
+      "name": "com.paulscode:codecwav:20101023"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "5c5e304366f75f9eaa2e8cca546a1fb6109348b3",
+          "size": 21679,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/5c5e304366f75f9eaa2e8cca546a1fb6109348b3"
+        }
+      },
+      "name": "com.paulscode:libraryjavasound:20101123"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "73e80d0794c39665aec3f62eee88ca91676674ef",
+          "size": 18981,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/73e80d0794c39665aec3f62eee88ca91676674ef"
+        }
+      },
+      "name": "com.paulscode:librarylwjglopenal:20100824"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6",
+          "size": 65020,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6"
+        }
+      },
+      "name": "com.paulscode:soundsystem:20120107"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "0097860965d6a0a6b98e7f569f3f966727b8db75",
+          "size": 3511093,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/0097860965d6a0a6b98e7f569f3f966727b8db75"
+        }
+      },
+      "name": "io.netty:netty-all:4.1.9.Final"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "3a3d111be1be1b745edfa7d91678a12d7ed38709",
+          "size": 2521113,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/3a3d111be1be1b745edfa7d91678a12d7ed38709"
+        }
+      },
+      "name": "com.google.guava:guava:21.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "6c6c702c89bfff3cd9e80b04d668c5e190d588c6",
+          "size": 479881,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/6c6c702c89bfff3cd9e80b04d668c5e190d588c6"
+        }
+      },
+      "name": "org.apache.commons:commons-lang3:3.5"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "2852e6e05fbb95076fc091f6d1780f1f8fe35e0f",
+          "size": 208700,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f"
+        }
+      },
+      "name": "commons-io:commons-io:2.5"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "4b95f4897fa13f2cd904aee711aeafc0c5295cd8",
+          "size": 284184,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/4b95f4897fa13f2cd904aee711aeafc0c5295cd8"
+        }
+      },
+      "name": "commons-codec:commons-codec:1.10"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "c4ba5371a29ac9b2ad6129b1d39ea38750043eff",
+          "size": 231952,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/c4ba5371a29ac9b2ad6129b1d39ea38750043eff"
+        }
+      },
+      "name": "com.google.code.gson:gson:2.8.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "9834cdf236c22e84b946bba989e2f94ef5897c3c",
+          "size": 65621,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/9834cdf236c22e84b946bba989e2f94ef5897c3c"
+        }
+      },
+      "name": "com.mojang:authlib:1.5.25"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "67560bbd6a83d48ae8b956f1feac09010bde879c",
+          "size": 3025164,
+          "path": "bafybeicbwozwl3nmpzcjqaua5odmjtcbtzhccodsir35ty7bnds33t2aaq/libraries/67560bbd6a83d48ae8b956f1feac09010bde879c"
+        }
+      },
+      "name": "com.mojang:realms:1.10.8"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "a698750c16740fd5b3871425f4cb3bbaa87f529d",
+          "size": 365552,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/a698750c16740fd5b3871425f4cb3bbaa87f529d"
+        }
+      },
+      "name": "org.apache.commons:commons-compress:1.8.1"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "18f4247ff4572a074444572cee34647c43e7c9c7",
+          "size": 589512,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/18f4247ff4572a074444572cee34647c43e7c9c7"
+        }
+      },
+      "name": "org.apache.httpcomponents:httpclient:4.3.3"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f",
+          "size": 62050,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f"
+        }
+      },
+      "name": "commons-logging:commons-logging:1.1.3"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "31fbbff1ddbf98f3aa7377c94d33b0447c646b6e",
+          "size": 282269,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e"
+        }
+      },
+      "name": "org.apache.httpcomponents:httpcore:4.3.2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "9835253257524c1be7ab50c057aa2d418fb72082",
+          "size": 17655579,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/9835253257524c1be7ab50c057aa2d418fb72082"
+        }
+      },
+      "name": "it.unimi.dsi:fastutil:7.1.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "d771af8e336e372fb5399c99edabe0919aeaf5b2",
+          "size": 301872,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/d771af8e336e372fb5399c99edabe0919aeaf5b2"
+        }
+      },
+      "name": "org.apache.logging.log4j:log4j-api:2.17.1"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "779f60f3844dadc3ef597976fcb1e5127b1f343d",
+          "size": 1790452,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/779f60f3844dadc3ef597976fcb1e5127b1f343d"
+        }
+      },
+      "name": "org.apache.logging.log4j:log4j-core:2.17.1"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "48fd510879dff266c3815947de66e3d4809f8668",
+          "size": 11055,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/48fd510879dff266c3815947de66e3d4809f8668"
+        }
+      },
+      "name": "com.mojang:text2speech:1.10.3",
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "48fd510879dff266c3815947de66e3d4809f8668",
+          "size": 11055,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/48fd510879dff266c3815947de66e3d4809f8668"
+        },
+        "classifiers": {
+          "natives-linux": {
+            "sha1": "ab7896aec3b3dd272b06194357f2d98f832c0cfc",
+            "size": 7833,
+            "path": "bafybeiasjabcdqqt54l6ihsfqtcro4urgvfxrjuh7pavhmv6qd6qbqthsi/libraries/ab7896aec3b3dd272b06194357f2d98f832c0cfc"
+          },
+          "natives-windows": {
+            "sha1": "84a4b856389cc4f485275b1f63497a95a857a443",
+            "size": 81217,
+            "path": "bafybeiasjabcdqqt54l6ihsfqtcro4urgvfxrjuh7pavhmv6qd6qbqthsi/libraries/84a4b856389cc4f485275b1f63497a95a857a443"
+          },
+          "sources": {
+            "sha1": "404339fe43d1011ee046a249b0ec7ae9ce04a834",
+            "size": 4632,
+            "path": "bafybeiasjabcdqqt54l6ihsfqtcro4urgvfxrjuh7pavhmv6qd6qbqthsi/libraries/404339fe43d1011ee046a249b0ec7ae9ce04a834"
+          }
+        }
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "name": "com.mojang:text2speech:1.10.3",
+      "natives": {
+        "linux": "natives-linux",
+        "windows": "natives-windows"
+      },
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "6ef160c3133a78de015830860197602ca1c855d3",
+          "size": 40502,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/6ef160c3133a78de015830860197602ca1c855d3"
+        },
+        "classifiers": {
+          "javadoc": {
+            "sha1": "fb0092f22cb4fe8e631452f577b7a238778abf2a",
+            "size": 174060,
+            "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/fb0092f22cb4fe8e631452f577b7a238778abf2a"
+          },
+          "natives-osx": {
+            "sha1": "08befab4894d55875f33c3d300f4f71e6e828f64",
+            "size": 5629,
+            "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/08befab4894d55875f33c3d300f4f71e6e828f64"
+          },
+          "sources": {
+            "sha1": "865837a198189aee737019561ece842827f24278",
+            "size": 43283,
+            "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/865837a198189aee737019561ece842827f24278"
+          }
+        }
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "name": "ca.weblite:java-objc-bridge:1.0.0",
+      "natives": {
+        "osx": "natives-osx"
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "6ef160c3133a78de015830860197602ca1c855d3",
+          "size": 40502,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/6ef160c3133a78de015830860197602ca1c855d3"
+        }
+      },
+      "name": "ca.weblite:java-objc-bridge:1.0.0",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "f378f889797edd7df8d32272c06ca80a1b6b0f58",
+          "size": 13164,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/f378f889797edd7df8d32272c06ca80a1b6b0f58"
+        }
+      },
+      "name": "com.mojang:text2speech:1.11.3",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "369a83621e3c65496348491e533cb97fe5f2f37d",
+          "size": 91947,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/369a83621e3c65496348491e533cb97fe5f2f37d"
+        }
+      },
+      "name": "ca.weblite:java-objc-bridge:1.1.0-mmachina.1",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    }
+  ],
+  "mainClass": "net.minecraft.client.main.Main",
+  "mainJar": {
+    "downloads": {
+      "artifact": {
+        "sha1": "87f980355264f222daa292528116281d62231402",
+        "size": 10158482,
+        "path": "bafybeihlkugg4ki67odb2kphbmd66jh6wba32zqe3qgux7ihmobvjkbq2e/client.jar"
+      }
+    },
+    "name": "com.mojang:minecraft:1.12-pre5:client"
+  },
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
+  "name": "Minecraft",
+  "order": -2,
+  "releaseTime": "2017-05-19T07:43:28+00:00",
+  "requires": [
+    {
+      "suggests": "2.9.4-nightly-20150209",
+      "uid": "org.lwjgl"
+    }
+  ],
+  "type": "snapshot",
+  "uid": "net.minecraft",
+  "version": "1.12-pre5"
+}

@@ -1,0 +1,414 @@
+{
+  "+traits": [
+    "XR:Initial",
+    "FirstThreadOnMacOS"
+  ],
+  "assetIndex": {
+    "id": "1.17",
+    "sha1": "82f0d7df6fa296d476c9442f19fcb151c4310049",
+    "size": 775462,
+    "totalSize": 347866011,
+    "path": "bafkreiem7tpvqbsfkef6zt252ygfz637lnhohgdq33tylup5pmbl3mbt7q"
+  },
+  "compatibleJavaMajors": [
+    16,
+    17
+  ],
+  "formatVersion": 1,
+  "libraries": [
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "9da540f21c9a8d5ed7c029e1f88d1a6dabb0d6ad",
+          "size": 964,
+          "path": "bafybeigav5vkf74heewwyajlu3cbhtncvild2tixq6ri6nq3unqqm4jxka/libraries/9da540f21c9a8d5ed7c029e1f88d1a6dabb0d6ad"
+        }
+      },
+      "name": "com.mojang:blocklist:1.0.5"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "ce112c16c6275fdfff2d30208533ec906a191f71",
+          "size": 10090,
+          "path": "bafybeiavd3lwhaporvefpvxlw73k5ed3ss7rafofm7pzyfizyt3sgoon5m/libraries/ce112c16c6275fdfff2d30208533ec906a191f71"
+        }
+      },
+      "name": "com.mojang:patchy:2.1.6"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "7d46a42de1af8c81d401d50082f285853307b31d",
+          "size": 835937,
+          "path": "bafybeibjdmbbh7huztwz5avdzpm3st4wefacz4lwgcd2hffks32f7b6gym/libraries/7d46a42de1af8c81d401d50082f285853307b31d"
+        }
+      },
+      "name": "com.github.oshi:oshi-core:5.7.4"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "3551d8d827e54858214107541d3aff9c615cb615",
+          "size": 1729586,
+          "path": "bafybeigav5vkf74heewwyajlu3cbhtncvild2tixq6ri6nq3unqqm4jxka/libraries/3551d8d827e54858214107541d3aff9c615cb615"
+        }
+      },
+      "name": "net.java.dev.jna:jna:5.8.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "2f12f6d7f7652270d13624cef1b82d8cd9a5398e",
+          "size": 1338206,
+          "path": "bafybeigav5vkf74heewwyajlu3cbhtncvild2tixq6ri6nq3unqqm4jxka/libraries/2f12f6d7f7652270d13624cef1b82d8cd9a5398e"
+        }
+      },
+      "name": "net.java.dev.jna:jna-platform:5.8.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "83b0359d847ee053d745be7ec0d8e9e8a44304b4",
+          "size": 44213,
+          "path": "bafybeif4y662squyydqemfspu24swpy27lauebp4txrvyg3mwpcmaexdh4/libraries/83b0359d847ee053d745be7ec0d8e9e8a44304b4"
+        }
+      },
+      "name": "org.slf4j:slf4j-api:1.8.0-beta4"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "ca499d751f4ddd8afb016ef698c30be0da1d09f7",
+          "size": 21268,
+          "path": "bafybeif4y662squyydqemfspu24swpy27lauebp4txrvyg3mwpcmaexdh4/libraries/ca499d751f4ddd8afb016ef698c30be0da1d09f7"
+        }
+      },
+      "name": "org.apache.logging.log4j:log4j-slf4j18-impl:2.17.1"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "72c7519b6d91f7a1f993bd44a99fe95d67211b27",
+          "size": 12935630,
+          "path": "bafybeigav5vkf74heewwyajlu3cbhtncvild2tixq6ri6nq3unqqm4jxka/libraries/72c7519b6d91f7a1f993bd44a99fe95d67211b27"
+        }
+      },
+      "name": "com.ibm.icu:icu4j:66.1"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "3e5084d916ba393dfd82928ec97663aeb10b2e2c",
+          "size": 6014,
+          "path": "bafybeigav5vkf74heewwyajlu3cbhtncvild2tixq6ri6nq3unqqm4jxka/libraries/3e5084d916ba393dfd82928ec97663aeb10b2e2c"
+        }
+      },
+      "name": "com.mojang:javabridge:1.1.23"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a",
+          "size": 78175,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a"
+        }
+      },
+      "name": "net.sf.jopt-simple:jopt-simple:5.0.3"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "d0626cd3108294d1d58c05859add27b4ef21f83b",
+          "size": 3823147,
+          "path": "bafybeigav5vkf74heewwyajlu3cbhtncvild2tixq6ri6nq3unqqm4jxka/libraries/d0626cd3108294d1d58c05859add27b4ef21f83b"
+        }
+      },
+      "name": "io.netty:netty-all:4.1.25.Final"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "3a3d111be1be1b745edfa7d91678a12d7ed38709",
+          "size": 2521113,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/3a3d111be1be1b745edfa7d91678a12d7ed38709"
+        }
+      },
+      "name": "com.google.guava:guava:21.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "6c6c702c89bfff3cd9e80b04d668c5e190d588c6",
+          "size": 479881,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/6c6c702c89bfff3cd9e80b04d668c5e190d588c6"
+        }
+      },
+      "name": "org.apache.commons:commons-lang3:3.5"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "2852e6e05fbb95076fc091f6d1780f1f8fe35e0f",
+          "size": 208700,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f"
+        }
+      },
+      "name": "commons-io:commons-io:2.5"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "4b95f4897fa13f2cd904aee711aeafc0c5295cd8",
+          "size": 284184,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/4b95f4897fa13f2cd904aee711aeafc0c5295cd8"
+        }
+      },
+      "name": "commons-codec:commons-codec:1.10"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "c1ef1234282716483c92183f49bef47b1a89bfa9",
+          "size": 77116,
+          "path": "bafybeidwcbpvbjmkdaxbc6dqhorv2ttvcyrszinmgidwjh5wlquvbnw4cq/libraries/c1ef1234282716483c92183f49bef47b1a89bfa9"
+        }
+      },
+      "name": "com.mojang:brigadier:1.0.18"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "ebd6690f33871ccee9b6132c6480668ee2e35020",
+          "size": 673183,
+          "path": "bafybeiavd3lwhaporvefpvxlw73k5ed3ss7rafofm7pzyfizyt3sgoon5m/libraries/ebd6690f33871ccee9b6132c6480668ee2e35020"
+        }
+      },
+      "name": "com.mojang:datafixerupper:4.0.26"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "c4ba5371a29ac9b2ad6129b1d39ea38750043eff",
+          "size": 231952,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/c4ba5371a29ac9b2ad6129b1d39ea38750043eff"
+        }
+      },
+      "name": "com.google.code.gson:gson:2.8.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "d6e677199aa6b19c4a9a2e725034149eb3e746f8",
+          "size": 87497,
+          "path": "bafybeig7nhpfk7g6j3euzaek2wpkled2kbnkmembz4tycrrsfgndg74pci/libraries/d6e677199aa6b19c4a9a2e725034149eb3e746f8"
+        }
+      },
+      "name": "com.mojang:authlib:2.2.30"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "a698750c16740fd5b3871425f4cb3bbaa87f529d",
+          "size": 365552,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/a698750c16740fd5b3871425f4cb3bbaa87f529d"
+        }
+      },
+      "name": "org.apache.commons:commons-compress:1.8.1"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "18f4247ff4572a074444572cee34647c43e7c9c7",
+          "size": 589512,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/18f4247ff4572a074444572cee34647c43e7c9c7"
+        }
+      },
+      "name": "org.apache.httpcomponents:httpclient:4.3.3"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f",
+          "size": 62050,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f"
+        }
+      },
+      "name": "commons-logging:commons-logging:1.1.3"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "31fbbff1ddbf98f3aa7377c94d33b0447c646b6e",
+          "size": 282269,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e"
+        }
+      },
+      "name": "org.apache.httpcomponents:httpcore:4.3.2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "5ad88f325e424f8dbc2be5459e21ea5cab3864e9",
+          "size": 18800417,
+          "path": "bafybeigav5vkf74heewwyajlu3cbhtncvild2tixq6ri6nq3unqqm4jxka/libraries/5ad88f325e424f8dbc2be5459e21ea5cab3864e9"
+        }
+      },
+      "name": "it.unimi.dsi:fastutil:8.2.1"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "d771af8e336e372fb5399c99edabe0919aeaf5b2",
+          "size": 301872,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/d771af8e336e372fb5399c99edabe0919aeaf5b2"
+        }
+      },
+      "name": "org.apache.logging.log4j:log4j-api:2.17.1"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "779f60f3844dadc3ef597976fcb1e5127b1f343d",
+          "size": 1790452,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/779f60f3844dadc3ef597976fcb1e5127b1f343d"
+        }
+      },
+      "name": "org.apache.logging.log4j:log4j-core:2.17.1"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "f378f889797edd7df8d32272c06ca80a1b6b0f58",
+          "size": 13164,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/f378f889797edd7df8d32272c06ca80a1b6b0f58"
+        }
+      },
+      "name": "com.mojang:text2speech:1.11.3"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "f378f889797edd7df8d32272c06ca80a1b6b0f58",
+          "size": 13164,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/f378f889797edd7df8d32272c06ca80a1b6b0f58"
+        },
+        "classifiers": {
+          "natives-linux": {
+            "sha1": "ac641755a2a841d1fca9e660194f42523ee5cfe0",
+            "size": 7833,
+            "path": "bafybeiavd3lwhaporvefpvxlw73k5ed3ss7rafofm7pzyfizyt3sgoon5m/libraries/ac641755a2a841d1fca9e660194f42523ee5cfe0"
+          },
+          "natives-windows": {
+            "sha1": "c0b242c0091be5acbf303263c7eeeaedd70544c7",
+            "size": 81379,
+            "path": "bafybeiavd3lwhaporvefpvxlw73k5ed3ss7rafofm7pzyfizyt3sgoon5m/libraries/c0b242c0091be5acbf303263c7eeeaedd70544c7"
+          }
+        }
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "name": "com.mojang:text2speech:1.11.3",
+      "natives": {
+        "linux": "natives-linux",
+        "windows": "natives-windows"
+      }
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "6ef160c3133a78de015830860197602ca1c855d3",
+          "size": 40502,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/6ef160c3133a78de015830860197602ca1c855d3"
+        },
+        "classifiers": {
+          "natives-osx": {
+            "sha1": "08befab4894d55875f33c3d300f4f71e6e828f64",
+            "size": 5629,
+            "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/08befab4894d55875f33c3d300f4f71e6e828f64"
+          }
+        }
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "name": "ca.weblite:java-objc-bridge:1.0.0",
+      "natives": {
+        "osx": "natives-osx"
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "6ef160c3133a78de015830860197602ca1c855d3",
+          "size": 40502,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/6ef160c3133a78de015830860197602ca1c855d3"
+        }
+      },
+      "name": "ca.weblite:java-objc-bridge:1.0.0",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "369a83621e3c65496348491e533cb97fe5f2f37d",
+          "size": 91947,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/369a83621e3c65496348491e533cb97fe5f2f37d"
+        }
+      },
+      "name": "ca.weblite:java-objc-bridge:1.1.0-mmachina.1",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx-arm64"
+          }
+        }
+      ]
+    }
+  ],
+  "mainClass": "net.minecraft.client.main.Main",
+  "mainJar": {
+    "downloads": {
+      "artifact": {
+        "sha1": "ad51f4efbc250c15d84eaf07f600787246fa6cd6",
+        "size": 19536037,
+        "path": "bafybeide5owdynbzosm2qdzp4ymxbrcxsegsguqhojqcku5to7jayvukdq/client.jar"
+      }
+    },
+    "name": "com.mojang:minecraft:1.17-pre5:client"
+  },
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
+  "name": "Minecraft",
+  "order": -2,
+  "releaseTime": "2021-06-03T17:01:28+00:00",
+  "requires": [
+    {
+      "suggests": "3.2.2",
+      "uid": "org.lwjgl3"
+    }
+  ],
+  "type": "snapshot",
+  "uid": "net.minecraft",
+  "version": "1.17-pre5"
+}

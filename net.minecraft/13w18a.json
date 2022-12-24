@@ -1,0 +1,149 @@
+{
+  "assetIndex": {
+    "id": "pre-1.6",
+    "sha1": "541e2b02f7d4069e92ff3952aa268913426198b8",
+    "size": 179428,
+    "totalSize": 49505710,
+    "path": "bafkreiatruav5fqjywwzrcbdql4lbkr3td6bgo6z6xpe7is43tw32w7zji"
+  },
+  "compatibleJavaMajors": [
+    8
+  ],
+  "formatVersion": 1,
+  "libraries": [
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "e3bc45034fe4d94a0c7b3012c2713f14ef76da64",
+          "size": 57347,
+          "path": "bafybeidjha47ze4z5epshivensezvw4d4gqby323rmr6p7hjbmfvdvzxau/libraries/e3bc45034fe4d94a0c7b3012c2713f14ef76da64"
+        }
+      },
+      "name": "net.sf.jopt-simple:jopt-simple:4.4"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "c73b5636faf089d9f00e8732a829577de25237ee",
+          "size": 103871,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/c73b5636faf089d9f00e8732a829577de25237ee"
+        }
+      },
+      "name": "com.paulscode:codecjorbis:20101023"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "12f031cfe88fef5c1dd36c563c0a3a69bd7261da",
+          "size": 5618,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/12f031cfe88fef5c1dd36c563c0a3a69bd7261da"
+        }
+      },
+      "name": "com.paulscode:codecwav:20101023"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "5c5e304366f75f9eaa2e8cca546a1fb6109348b3",
+          "size": 21679,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/5c5e304366f75f9eaa2e8cca546a1fb6109348b3"
+        }
+      },
+      "name": "com.paulscode:libraryjavasound:20101123"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "73e80d0794c39665aec3f62eee88ca91676674ef",
+          "size": 18981,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/73e80d0794c39665aec3f62eee88ca91676674ef"
+        }
+      },
+      "name": "com.paulscode:librarylwjglopenal:20100824"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6",
+          "size": 65020,
+          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6"
+        }
+      },
+      "name": "com.paulscode:soundsystem:20120107"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "751761ce15a3e3aaf3fc75b9f013ff8f7b88a585",
+          "size": 74953,
+          "path": "bafybeib7k4m4uawbw6acvft63epiwnzynai6rhnztp5v77fvfejjogtvx4/libraries/751761ce15a3e3aaf3fc75b9f013ff8f7b88a585"
+        }
+      },
+      "name": "argo:argo:2.25_fixed"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "b6f5d9926b0afbde9f4dbe3db88c5247be7794bb",
+          "size": 1997327,
+          "path": "bafybeignkay6xs3s5msbsuxojiakt2drm22ymcrzqyd3kqgp7o2cgh3rjm/libraries/b6f5d9926b0afbde9f4dbe3db88c5247be7794bb"
+        }
+      },
+      "name": "org.bouncycastle:bcprov-jdk15on:1.47"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "67b7be4ee7ba48e4828a42d6d5069761186d4a53",
+          "size": 2189111,
+          "path": "bafybeihh4jnnhv6ppqivneeogsdgrilg53p7k7ggmnvsu5fktpaexy6pf4/libraries/67b7be4ee7ba48e4828a42d6d5069761186d4a53"
+        }
+      },
+      "name": "com.google.guava:guava:14.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "905075e6c80f206bbe6cf1e809d2caa69f420c76",
+          "size": 315805,
+          "path": "bafybeih34rlo4fsdnhavvwbrhvbz3r5ywahqzrqj5qph6qcxj6ro5wqr5i/libraries/905075e6c80f206bbe6cf1e809d2caa69f420c76"
+        }
+      },
+      "name": "org.apache.commons:commons-lang3:3.1"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "b1b6ea3b7e4aa4f492509a4952029cd8e48019ad",
+          "size": 185140,
+          "path": "bafybeiabs6lanwcpeomdbp7msj7shxvq5dyce2z4lngjyqy6hryhzsk73e/libraries/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad"
+        }
+      },
+      "name": "commons-io:commons-io:2.4"
+    }
+  ],
+  "mainClass": "net.minecraft.client.main.Main",
+  "mainJar": {
+    "downloads": {
+      "artifact": {
+        "sha1": "a2c623ea7fb3bfc5cdcc402f8aadf22ff657b2d7",
+        "size": 4554690,
+        "path": "bafybeib5bblxb2rcxyt22evhknkgb3cd7jx34dtecvcnielerammtlfuo4/client.jar"
+      }
+    },
+    "name": "com.mojang:minecraft:13w18a:client"
+  },
+  "minecraftArguments": "--username ${auth_player_name} --session ${auth_session} --workDir ${game_directory}",
+  "name": "Minecraft",
+  "order": -2,
+  "releaseTime": "2013-05-02T15:45:59+00:00",
+  "requires": [
+    {
+      "suggests": "2.9.4-nightly-20150209",
+      "uid": "org.lwjgl"
+    }
+  ],
+  "type": "snapshot",
+  "uid": "net.minecraft",
+  "version": "13w18a"
+}
