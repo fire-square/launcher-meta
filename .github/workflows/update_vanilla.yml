@@ -25,14 +25,9 @@ jobs:
       - name: Login to Web3.Storage
         run: |
           echo "${{ secrets.WEB3_STORAGE }}" | w3 token
-      - name: Install Poetry
-        run: |
-          curl -sSL https://install.python-poetry.org | python3 -
       - name: Install dependencies
         run: |
-          poetry export -o requirements.txt
-          pip install -r requirements.txt
-          rm requirements.txt
+          pip install requests tqdm
       - name: Update vanilla versions
         continue-on-error: true
         run: |
