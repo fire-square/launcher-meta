@@ -21,11 +21,9 @@ jobs:
           node-version: "18"
       - name: Install w3
         run: |
-          sudo npm install -g @web3-storage/w3cli
+          sudo npm install -g @web3-storage/w3
       - name: Login to Web3.Storage
         run: |
-          w3 --help
-          w3 --version
           echo "${{ secrets.WEB3_STORAGE }}" | w3 token
       - name: Install Poetry
         run: |
