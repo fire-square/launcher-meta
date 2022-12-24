@@ -25,7 +25,6 @@ jobs:
       - name: Login to Web3.Storage
         run: |
           echo "${{ secrets.WEB3_STORAGE }}" | w3 token
-          w3 put get_hash.py
       - name: Install dependencies
         run: |
           pip install requests tqdm

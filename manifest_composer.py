@@ -9,7 +9,8 @@ import re
 
 
 def get_command_output(command):
-  system(command + " &> out")
+  print(f"Running command: {command}")
+  system(command + " > out 2>&1")
   with open("out", "r") as f:
     output = f.read()
   remove("out")
