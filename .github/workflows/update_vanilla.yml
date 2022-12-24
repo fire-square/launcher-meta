@@ -23,6 +23,7 @@ jobs:
         run: |
           poetry export -o requirements.txt
           sudo pip install -r requirements.txt
+          rm requirements.txt
       - name: Update vanilla versions
         continue-on-error: true
         run: |
