@@ -18,8 +18,12 @@ def get_command_output(command):
 
 def find_cid(text):
   # Find CIDv1
-  cid = re.findall(r"baf[a-zA-Z0-9]{56}", text)
-  return cid[0]
+  try:
+    cid = re.findall(r"baf[a-zA-Z0-9]{56}", text)
+    return cid[0]
+  except Exception as e:
+    print(text)
+    raise e
 
 
 def main(url, version_id):
@@ -56,7 +60,6 @@ def main(url, version_id):
   for key in list(assetIndex['objects']):
     if assetIndex['objects'][key]['hash'] in cid_db:
       del assetIndex['objects'][key]
-      print(f"Skipping {key}...")
 
   # Download assets
   for key in tqdm(assetIndex['objects'].values()):
@@ -75,15 +78,11 @@ def main(url, version_id):
   print("Downloading libraries...")
 
   for library in tqdm(manifest['libraries']):
-    if library['downloads']['artifact']['sha1'] in cid_db:
-      print(f"Skipping {library['name']}...")
-    else:
+    if library['downloads']['artifact']['sha1'] not in cid_db:
       download(library['downloads']['artifact']['url'], ASSET_PATH / "libraries" / library['downloads']['artifact']['sha1'])
 
     for classifier in library['downloads'].get('classifiers', {}):
-      if library['downloads']["classifiers"][classifier]['sha1'] in cid_db:
-        print(f"Skipping {library['name']} {classifier}...")
-      else:
+      if library['downloads']["classifiers"][classifier]['sha1'] not in cid_db:
         download(library['downloads']["classifiers"][classifier]['url'], ASSET_PATH / "libraries" / library['downloads']["classifiers"][classifier]['sha1'])
 
 
