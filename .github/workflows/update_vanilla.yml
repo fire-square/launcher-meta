@@ -13,22 +13,17 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: "3.11"
-      - uses: actions/cache@v2
-        with:
-          path: ~/.cache/pypoetry
-          key: ${{ runner.os }}-poetry-${{ hashFiles('**/poetry.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-poetry-
       - name: Install Poetry
         run: |
-          pip install poetry
+          curl -sSL https://install.python-poetry.org | python3 -
       - name: Install dependencies
         run: |
-          poetry install
+          poetry export -o requirements.txt
+          pip install -r requirements.txt
       - name: Update vanilla versions
         continue-on-error: true
         run: |
-          poetry run python manifest_composer.py
+          python update_vanilla.py
       - name: Commit changes
         continue-on-error: true
         run: |
