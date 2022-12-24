@@ -180,9 +180,9 @@ def main(url, version_id):
 version_index = get("https://meta.prismlauncher.org/v1/net.minecraft/index.json").json()
 for version in version_index['versions']:
   version_id = version['version']
-  if re.findall(r"^\d+\.\d+\.\d+$", version_id) == []:
-    print(f"Skipping {version_id}...")
-    continue
+  # if re.findall(r"^\d+\.\d+\.\d+$", version_id) == []:
+  #   print(f"Skipping {version_id}...")
+  #   continue
   # skip = False
   # for name in listdir("versions"):
   #   if version_id + ".json" in name:
