@@ -24,7 +24,6 @@ jobs:
           sudo npm install -g @web3-storage/w3cli
       - name: Login to Web3.Storage
         run: |
-          w3
           w3 --help
           w3 --version
           echo "${{ secrets.WEB3_STORAGE }}" | w3 token
