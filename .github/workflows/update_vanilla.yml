@@ -1,0 +1,42 @@
+name: "Update vanilla versions"
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Every day at midnight
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.11"
+      - uses: actions/cache@v2
+        with:
+          path: ~/.cache/pypoetry
+          key: ${{ runner.os }}-poetry-${{ hashFiles('**/poetry.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-poetry-
+      - name: Install Poetry
+        run: |
+          pip install poetry
+      - name: Install dependencies
+        run: |
+          poetry install
+      - name: Update vanilla versions
+        ignore_errors: true
+        run: |
+          poetry run python manifest_composer.py
+      - name: Commit changes
+        run: |
+          git config --local user.email "bot@frsqr.xyz"
+          git config --local user.name "Bot"
+          git add .
+          git commit -m "Update vanilla versions"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
