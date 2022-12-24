@@ -30,12 +30,14 @@ jobs:
         run: |
           poetry run python manifest_composer.py
       - name: Commit changes
+        continue-on-error: true
         run: |
           git config --local user.email "bot@frsqr.xyz"
           git config --local user.name "Bot"
           git add .
           git commit -m "Update vanilla versions"
       - name: Push changes
+        continue-on-error: true
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
