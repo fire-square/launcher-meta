@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 0 * * *" # Every day at midnight
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/update_vanilla.yml"
 
 jobs:
   update:
@@ -19,11 +22,11 @@ jobs:
       - name: Install dependencies
         run: |
           poetry export -o requirements.txt
-          pip install -r requirements.txt
+          sudo pip install -r requirements.txt
       - name: Update vanilla versions
         continue-on-error: true
         run: |
-          python update_vanilla.py
+          python manifest_composer.py
       - name: Commit changes
         continue-on-error: true
         run: |
