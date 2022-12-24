@@ -6,6 +6,7 @@ from json import load, loads, dump, dumps
 from pathlib import Path
 from hashlib import sha1
 import re
+from traceback import print_exc
 
 
 def get_command_output(command):
@@ -192,4 +193,8 @@ for version in version_index['versions']:
   # if skip:
   #   continue
   print(f"Processing {version_id}...")
-  main(f"https://meta.prismlauncher.org/v1/net.minecraft/{version_id}.json", version_id)
+  try:
+    main(f"https://meta.prismlauncher.org/v1/net.minecraft/{version_id}.json", version_id)
+  except Exception:
+    print_exc()
+    print(f"Failed to process {version_id}...")
