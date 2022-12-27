@@ -9,6 +9,7 @@ with open("cid_db.json", "r") as f:
 MAX_TASKS = 100
 tasks = 0
 cached = 0
+errors = 0
 
 def download(cid):
   global tasks
@@ -17,6 +18,7 @@ def download(cid):
     url = f"https://ipfs.frsqr.xyz/ipfs/{cid}"
     r = requests.get(url)
     if r.status_code != 200:
+      errors += 1
       print(f"Error: {cid} ({hash})")
       print(r.text)
     if r.status_code == 200:
@@ -25,6 +27,7 @@ def download(cid):
         global cached
         cached += 1
   except Exception as e:
+    errors += 1
     print(f"Error: {cid} ({hash})")
     print(e)
   tasks -= 1
@@ -46,3 +49,4 @@ print(f"Total: {total}")
 print(f"Cached: {cached}")
 print(f"Uncached: {total - cached}")
 print(f"Cache Rate: {total / cached * 100}%")
+print(f"Errors: {errors}")
