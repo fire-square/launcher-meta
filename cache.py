@@ -8,6 +8,7 @@ with open("cid_db.json", "r") as f:
 
 MAX_TASKS = 100
 tasks = 0
+cached = 0
 
 def download(cid):
   global tasks
@@ -18,6 +19,11 @@ def download(cid):
     if r.status_code != 200:
       print(f"Error: {cid} ({hash})")
       print(r.text)
+    if r.status_code == 200:
+      cache_status = r.headers.get("Cache-Status")
+      if cache_status == "HIT":
+        global cached
+        cached += 1
   except Exception as e:
     print(f"Error: {cid} ({hash})")
     print(e)
@@ -34,3 +40,9 @@ for hash_ in tqdm(cid_db):
 
 while tasks > 0:
   pass
+
+total = len(cid_db)
+print(f"Total: {total}")
+print(f"Cached: {cached}")
+print(f"Uncached: {total - cached}")
+print(f"Cache Rate: {total / cached * 100}%")
