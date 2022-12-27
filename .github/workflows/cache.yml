@@ -1,8 +1,13 @@
+# Workflow to cache all assets from IPFS on Cloudflare edge nodes.
+# This will speed up the loading of the gateway and reduce the load on the IPFS nodes.
+#
+# This workflow is scheduled to run 4 hours.
+
 name: "Cache"
 
 on:
   schedule:
-    - cron: "0 4 * * *" # Every day at 4am
+    - cron: "0 */4 * * *" # every 4 hours
   workflow_dispatch:
   push:
     paths:
