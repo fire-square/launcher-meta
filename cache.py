@@ -28,7 +28,7 @@ def download(cid):
       print(r.text)
       download(cid)
     if r.status_code == 200:
-      cache_status = r.headers.get("Cache-Status")
+      cache_status = r.headers.get("Cf-Cache-Status")
       if cache_status == "HIT":
         global cached
         cached += 1
@@ -53,8 +53,8 @@ for path in tqdm(list(cid_db.values())[step * (run_number - 1):step * run_number
 while tasks > 0:
   pass
 
-print(f"Total: {total}")
+print(f"Total: {step}")
 print(f"Cached: {cached}")
-print(f"Uncached: {total - cached}")
-print(f"Cache Rate: {total / cached * 100}%")
+print(f"Uncached: {step - cached}")
+print(f"Cache Rate: {step / cached * 100}%")
 print(f"Errors: {errors}")
