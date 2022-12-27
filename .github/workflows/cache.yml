@@ -9,7 +9,7 @@ on:
       - ".github/workflows/cache.yml"
 
 jobs:
-  update:
+  cache:
     strategy:
       fail-fast: false
       matrix:
