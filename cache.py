@@ -30,7 +30,7 @@ def download(cid, count = True):
       print(r.text)
       download(cid, False)
     if r.status_code == 200:
-      cache_status = r.headers.get("Cf-Cache-Status")
+      cache_status = r.headers.get("cf-cache-status", "MISS")
       if cache_status == "HIT":
         global cached
         cached += 1
