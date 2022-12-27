@@ -33,4 +33,4 @@ jobs:
       - name: Push metrics
         continue-on-error: true
         run: |
-          cat metrics.json | curl -H "Authorization: Basic ${{ secrets.PUSHGATEWAY_AUTH }}" --data-binary @- https://prometheus-push.frsqr.xyz/metrics/job/launcher_meta/instance/gh_actions
+          cat metrics.txt | curl -H "Authorization: Basic ${{ secrets.PUSHGATEWAY_AUTH }}" --data-binary @- https://prometheus-push.frsqr.xyz/metrics/job/launcher_meta/instance/gh_actions
