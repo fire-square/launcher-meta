@@ -13,6 +13,8 @@ errors = 0
 
 def download(cid):
   global tasks
+  global cached
+  global errors
   tasks += 1
   try:
     url = f"https://ipfs.frsqr.xyz/ipfs/{cid}"
