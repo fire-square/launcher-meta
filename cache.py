@@ -10,6 +10,7 @@ with open("cid_db.json", "r") as f:
 run_number = int(argv[1])
 
 MAX_TASKS = 24
+GH_JOBS = 20
 tasks = 0
 cached = 0
 errors = 0
@@ -42,7 +43,7 @@ def download(cid, count = True):
     tasks -= 1
 
 total = len(cid_db)
-step = int(total / 10) + 100
+step = int(total / GH_JOBS) + 100
 
 for path in tqdm(list(cid_db.values())[step * (run_number - 1):step * run_number]):
   if tasks < MAX_TASKS:
