@@ -14,11 +14,12 @@ tasks = 0
 cached = 0
 errors = 0
 
-def download(cid):
+def download(cid, count = True):
   global tasks
   global cached
   global errors
-  tasks += 1
+  if count:
+    tasks += 1
   try:
     url = f"https://ipfs.frsqr.xyz/ipfs/{cid}"
     r = requests.get(url)
@@ -26,7 +27,7 @@ def download(cid):
       errors += 1
       print(f"Error: {cid} ({hash})")
       print(r.text)
-      download(cid)
+      download(cid, False)
     if r.status_code == 200:
       cache_status = r.headers.get("Cf-Cache-Status")
       if cache_status == "HIT":
@@ -36,8 +37,9 @@ def download(cid):
     errors += 1
     print(f"Error: {cid} ({hash})")
     print(e)
-    download(cid)
-  tasks -= 1
+    download(cid, False)
+  if count:
+    tasks -= 1
 
 total = len(cid_db)
 step = int(total / 10) + 100
