@@ -45,6 +45,8 @@ def download(cid, count = True):
 total = len(cid_db)
 step = int(total / GH_JOBS) + 100
 
+print(f"Range: {step * (run_number - 1)} - {step * run_number} ({step})")
+
 for path in tqdm(list(cid_db.values())[step * (run_number - 1):step * run_number]):
   if tasks < MAX_TASKS:
     threading.Thread(target=download, args=(path,)).start()
@@ -56,6 +58,7 @@ for path in tqdm(list(cid_db.values())[step * (run_number - 1):step * run_number
 while tasks > 0:
   pass
 
+print(f"Range: {step * (run_number - 1)} - {step * run_number} ({step})")
 print(f"Total: {step}")
 print(f"Cached: {cached}")
 print(f"Uncached: {step - cached}")
