@@ -47,10 +47,6 @@ minecraft_cid_db_size {CID_DB_SIZE}
 # HELP minecraft_download_time Time to download a file from IPFS
 # TYPE minecraft_download_time gauge
 minecraft_download_time {DOWNLOAD_TIME}
-
-# HELP minecraft_download_size Size of the file downloaded from IPFS
-# TYPE minecraft_download_size gauge
-minecraft_download_size 22
 """
 
 print(prometheus_data)
