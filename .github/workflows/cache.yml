@@ -2,7 +2,7 @@ name: "Cache"
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Every day at midnight
+    - cron: "0 4 * * *" # Every day at 4am
   workflow_dispatch:
   push:
     paths:
