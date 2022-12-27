@@ -6,7 +6,7 @@ import threading
 with open("cid_db.json", "r") as f:
   cid_db = json.load(f)
 
-MAX_TASKS = 100
+MAX_TASKS = 24
 tasks = 0
 cached = 0
 errors = 0
