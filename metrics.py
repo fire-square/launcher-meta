@@ -9,7 +9,10 @@ with open("cid_db.json", "r") as f:
 CID_DB_SIZE = len(cid_db)
 
 download_start = time.time()
-r = requests.get("http://ipfs.frsqr.xyz/ipfs/bafybeidwcbpvbjmkdaxbc6dqhorv2ttvcyrszinmgidwjh5wlquvbnw4cq/client.jar") # 1.19.3 client. Around 22MB
+requests.get("https://ipfs.frsqr.xyz/ipfs/bafybeidwcbpvbjmkdaxbc6dqhorv2ttvcyrszinmgidwjh5wlquvbnw4cq/client.jar") # 1.19.3 client.
+requests.get("https://ipfs.frsqr.xyz/ipfs/bafybeif3stzjqe5dna2rrhd4du7fwyi2xxxospnmk63lwsz27i37houj3e/client.jar") # 1.19.2 client.
+requests.get("https://ipfs.frsqr.xyz/ipfs/bafybeiehhqj35ugoifcv2ippcfcfz4io4xjxyadlysxpf6arrgf54p6az4/client.jar") # 1.19.1 client.
+requests.get("https://ipfs.frsqr.xyz/ipfs/bafybeihgvj773nt5aumtvajt5ew33dqjdyhdho4mo6jtwv53uwi3lhqlii/client.jar") # 1.18 client.
 download_end = time.time()
 
 DOWNLOAD_TIME = download_end - download_start
