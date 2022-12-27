@@ -23,6 +23,7 @@ def download(cid):
       errors += 1
       print(f"Error: {cid} ({hash})")
       print(r.text)
+      download(cid)
     if r.status_code == 200:
       cache_status = r.headers.get("Cache-Status")
       if cache_status == "HIT":
@@ -32,6 +33,7 @@ def download(cid):
     errors += 1
     print(f"Error: {cid} ({hash})")
     print(e)
+    download(cid)
   tasks -= 1
 
 for hash_ in tqdm(cid_db):
