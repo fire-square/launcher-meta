@@ -2,9 +2,12 @@ import json
 from tqdm import tqdm
 import requests
 import threading
+from sys import argv
 
 with open("cid_db.json", "r") as f:
   cid_db = json.load(f)
+
+run_number = int(argv[1])
 
 MAX_TASKS = 24
 tasks = 0
@@ -36,19 +39,20 @@ def download(cid):
     download(cid)
   tasks -= 1
 
-for hash_ in tqdm(cid_db):
-  cid = cid_db[hash_]
+total = len(cid_db)
+step = int(total / 10) + 100
+
+for path in tqdm(list(cid_db.values())[step * (run_number - 1):step * run_number]):
   if tasks < MAX_TASKS:
-    threading.Thread(target=download, args=(cid,)).start()
+    threading.Thread(target=download, args=(path,)).start()
   else:
     while tasks >= MAX_TASKS:
       pass
-    threading.Thread(target=download, args=(cid,)).start()
+    threading.Thread(target=download, args=(path,)).start()
 
 while tasks > 0:
   pass
 
-total = len(cid_db)
 print(f"Total: {total}")
 print(f"Cached: {cached}")
 print(f"Uncached: {total - cached}")
