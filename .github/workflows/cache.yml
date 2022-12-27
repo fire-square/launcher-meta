@@ -1,0 +1,25 @@
+name: "Cache"
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Every day at midnight
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/cache.yml"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          pip install requests tqdm
+      - name: Update vanilla versions
+        continue-on-error: true
+        run: |
+          python cache.py
