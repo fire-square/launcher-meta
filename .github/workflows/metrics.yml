@@ -1,0 +1,25 @@
+name: "Metrics"
+
+on:
+  schedule:
+    - cron: "0 * * * *" # every hour
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/metrics.yml"
+
+jobs:
+  cache:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          pip install requests
+      - name: Gather metrics
+        continue-on-error: true
+        run: |
+          python metrics.py | curl -H "Authorization: Basic ${{ secrets.PUSHGATEWAY_AUTH }}" --data-binary @- https://prometheus-push.frsqr.xyz/metrics/job/launcher_meta/instance/gh_actions
