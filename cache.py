@@ -2,15 +2,13 @@ import json
 from tqdm import tqdm
 import requests
 import threading
-from sys import argv
+import time
+import os
 
 with open("cid_db.json", "r") as f:
   cid_db = json.load(f)
 
-run_number = int(argv[1])
-
 MAX_TASKS = 24
-GH_JOBS = 20
 tasks = 0
 cached = 0
 errors = 0
@@ -42,12 +40,9 @@ def download(cid, count = True):
   if count:
     tasks -= 1
 
-total = len(cid_db)
-step = int(total / GH_JOBS)
+start = time.time()
 
-print(f"Range: {step * (run_number - 1)} - {(step * run_number) + 10} ({step})")
-
-for path in tqdm(list(cid_db.values())[step * (run_number - 1):(step * run_number) + 10]):
+for path in tqdm(cid_db.values()):
   if tasks < MAX_TASKS:
     threading.Thread(target=download, args=(path,)).start()
   else:
@@ -58,9 +53,49 @@ for path in tqdm(list(cid_db.values())[step * (run_number - 1):(step * run_numbe
 while tasks > 0:
   pass
 
-print(f"Range: {step * (run_number - 1)} - {(step * run_number) + 10} ({step})")
-print(f"Total: {step}")
-print(f"Cached: {cached}")
-print(f"Uncached: {step - cached}")
-print(f"Cache Rate: {step / cached * 100}%")
-print(f"Errors: {errors}")
+end = time.time()
+download_time = end - start
+
+CID_DB_SIZE = len(cid_db)
+
+cids = []
+for sha in cid_db:
+  path = cid_db[sha]
+  cid = path.split("/")[0]
+  cids.append(cid)
+cids = list(set(cids))
+
+UNIQUE_CIDS = len(cids)
+
+d = os.listdir("net.minecraft")
+
+VERSIONS = len(d)
+
+prometheus_data = f"""
+# HELP minecraft_assets_download_time Time to download all assets from IPFS
+# TYPE minecraft_assets_download_time gauge
+minecraft_assets_download_time {download_time}
+
+# HELP minecraft_cached Number of cached assets
+# TYPE minecraft_cached gauge
+minecraft_cached {cached}
+
+# HELP minecraft_errors Number of errors
+# TYPE minecraft_errors gauge
+minecraft_errors {errors}
+
+# HELP minecraft_versions Number of Minecraft versions
+# TYPE minecraft_versions gauge
+minecraft_versions {VERSIONS}
+
+# HELP minecraft_unique_cids Number of unique CIDs
+# TYPE minecraft_unique_cids gauge
+minecraft_unique_cids {UNIQUE_CIDS}
+
+# HELP minecraft_cid_db_size Number of files in the CID database
+# TYPE minecraft_cid_db_size gauge
+minecraft_cid_db_size {CID_DB_SIZE}
+"""
+
+with open("metrics.txt", "w") as f:
+  f.write(prometheus_data)

@@ -1,13 +1,15 @@
 # Workflow to cache all assets from IPFS on Cloudflare edge nodes.
 # This will speed up the loading of the gateway and reduce the load on the IPFS nodes.
 #
-# This workflow is scheduled to run 12 hours.
+# Job also pushes metrics to Prometheus Pushgateway.
+# s
+# This workflow is scheduled to run 4 hours.
 
 name: "Cache"
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # every 12 hours
+    - cron: "0 */4 * * *" # every 4 hours
   workflow_dispatch:
   push:
     paths:
@@ -15,10 +17,6 @@ on:
 
 jobs:
   cache:
-    strategy:
-      fail-fast: false
-      matrix:
-        run_number: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -28,7 +26,11 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests tqdm
-      - name: Cache (run ${{ matrix.run_number }})
+      - name: Cache
         continue-on-error: true
         run: |
-          python cache.py ${{ matrix.run_number }}
+          python cache.py
+      - name: Push metrics
+        continue-on-error: true
+        run: |
+          cat metrics.json | curl -H "Authorization: Basic ${{ secrets.PUSHGATEWAY_AUTH }}" --data-binary @- https://prometheus-push.frsqr.xyz/metrics/job/launcher_meta/instance/gh_actions
