@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests tqdm
-      - name: Update vanilla versions
+      - name: Cache
         continue-on-error: true
         run: |
           python cache.py
