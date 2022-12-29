@@ -1,0 +1,39 @@
+{
+  "+traits": [
+    "no-texturepacks"
+  ],
+  "assetIndex": {
+    "id": "pre-1.6",
+    "sha1": "541e2b02f7d4069e92ff3952aa268913426198b8",
+    "size": 179428,
+    "totalSize": 49505710,
+    "path": "bafkreiatruav5fqjywwzrcbdql4lbkr3td6bgo6z6xpe7is43tw32w7zji"
+  },
+  "compatibleJavaMajors": [
+    8
+  ],
+  "formatVersion": 1,
+  "mainClass": "com.mojang.rubydung.RubyDung",
+  "mainJar": {
+    "downloads": {
+      "artifact": {
+        "sha1": "6323bd14ed7f83852e17ebc8ec418e55c97ddfe4",
+        "size": 60480,
+        "path": "bafybeicjt63fn3ye5rfi2qfa7evpsuaerym7cd4pciolqhmaeq7zyqogvy/client.jar"
+      }
+    },
+    "name": "com.mojang:minecraft:rd-20090515:client"
+  },
+  "name": "Minecraft",
+  "order": -2,
+  "releaseTime": "2009-05-14T22:00:00+00:00",
+  "requires": [
+    {
+      "suggests": "2.9.4-nightly-20150209",
+      "uid": "org.lwjgl"
+    }
+  ],
+  "type": "old_alpha",
+  "uid": "net.minecraft",
+  "version": "rd-20090515"
+}

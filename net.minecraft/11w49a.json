@@ -1,0 +1,39 @@
+{
+  "+traits": [
+    "legacyLaunch",
+    "texturepacks"
+  ],
+  "assetIndex": {
+    "id": "pre-1.6",
+    "sha1": "7d85a08c105d9b38491a4d7aa2a078761f8c6d7d",
+    "size": 178730,
+    "totalSize": 49381897,
+    "path": "bafkreie5jv4zrithabsepiwicshqpu3jy5kiaypcguy2mrjtgsyb3mkjri"
+  },
+  "compatibleJavaMajors": [
+    8
+  ],
+  "formatVersion": 1,
+  "mainJar": {
+    "downloads": {
+      "artifact": {
+        "sha1": "6f92a726e6b8b64f66c7e4d236f983c278d5af54",
+        "size": 3510866,
+        "path": "bafybeibrktbzm4zjm3wjmkgffhfydvjkf2fthgqbprruovyg4uj4sgqyji/client.jar"
+      }
+    },
+    "name": "com.mojang:minecraft:11w49a:client"
+  },
+  "name": "Minecraft",
+  "order": -2,
+  "releaseTime": "2011-12-08T00:00:00+02:00",
+  "requires": [
+    {
+      "suggests": "2.9.4-nightly-20150209",
+      "uid": "org.lwjgl"
+    }
+  ],
+  "type": "old_snapshot",
+  "uid": "net.minecraft",
+  "version": "11w49a"
+}
