@@ -224,7 +224,7 @@ for i, version in enumerate(version_index["versions"]):
   # If sha1 not in cid_db, upload
   if version_index["versions"][i]["sha1"] not in cid_db:
     # Upload file
-    path = find_cid(get_command_output("w3 put --no-wrap net.minecraft/" + version["version"] + ".json"))
+    path = find_cid(get_command_output("w3 put --no-wrap net.minecraft/" + version["version"].replace(" ", "\\ ") + ".json"))
     # Add to cid_db
     cid_db[version_index["versions"][i]["sha1"]] = path
   version_index["versions"][i]["path"] = cid_db[version_index["versions"][i]["sha1"]]
