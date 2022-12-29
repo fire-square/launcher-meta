@@ -14,6 +14,8 @@ on:
   push:
     paths:
       - ".github/workflows/cache.yml"
+      - "cache.py"
+      - "cid_db.json"
 
 jobs:
   cache:
