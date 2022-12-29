@@ -159,7 +159,7 @@ def main(url, version_id):
   manifest["mainJar"]['downloads']['artifact']['path'] = cid_db[manifest["mainJar"]['downloads']['artifact']['sha1']]
 
 
-  for library in manifest['libraries']:
+  for library in manifest.get('libraries', []):
     if library['downloads'].get('artifact', None) is not None:
       del library['downloads']['artifact']['url']
       library['downloads']['artifact']['path'] = cid_db[library['downloads']['artifact']['sha1']]
