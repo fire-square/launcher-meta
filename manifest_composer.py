@@ -244,6 +244,3 @@ if "net.minecraft/index.json" in changed:
   with open("net.minecraft/index.json", "rb") as f:
     version_index["sha1"] = sha1(f.read()).hexdigest()
   print(f"SHA1: {version_index['sha1']}")
-
-# Upload to IPFS
-version_index["path"] = find_cid(get_command_output("w3 put --no-wrap net.minecraft/index.json"))
