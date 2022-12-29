@@ -201,3 +201,49 @@ for version in version_index['versions']:
   except Exception:
     print_exc()
     print(f"Failed to process {version_id}...")
+
+
+lst = listdir("net.minecraft")
+
+# Upload to IPFS
+get_command_output("git add .")
+changed = get_command_output("git diff --name-only").split("\n")
+to_delete = []
+
+for i, version in enumerate(version_index["versions"]):
+  del version_index["versions"][i]["sha256"]
+  if version["version"] + ".json" not in lst:
+    to_delete.append(version["version"])
+    continue
+  # Check if file is changed
+  if "net.minecraft/" + version["version"] + ".json" not in changed:
+    continue
+  # Upload file
+  path = find_cid(get_command_output("w3 put --no-wrap net.minecraft/" + version["version"] + ".json"))
+  # Calculate sha1
+  with open("net.minecraft/" + version["version"] + ".json", "rb") as f:
+    version_index["versions"][i]["sha1"] = sha1(f.read()).hexdigest()
+  # Add path
+  version_index["versions"][i]["path"] = path
+
+# Delete old versions
+for version in to_delete:
+  for i, v in enumerate(version_index["versions"]):
+    if v["version"] == version:
+      del version_index["versions"][i]
+
+with open("net.minecraft/index.json", "w") as f:
+  dump(version_index, f, indent=2)
+
+changed = get_command_output("git diff --name-only").split("\n")
+if "net.minecraft/index.json" in changed:
+  print("Uploading index.json...")
+  path = find_cid(get_command_output("w3 put --no-wrap net.minecraft/index.json"))
+  print(f"Path: {path}")
+  # Calculate sha1
+  with open("net.minecraft/index.json", "rb") as f:
+    version_index["sha1"] = sha1(f.read()).hexdigest()
+  print(f"SHA1: {version_index['sha1']}")
+
+# Upload to IPFS
+version_index["path"] = find_cid(get_command_output("w3 put --no-wrap net.minecraft/index.json"))
