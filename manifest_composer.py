@@ -203,11 +203,14 @@ for version in version_index['versions']:
     print(f"Failed to process {version_id}...")
 
 
+
+with open("cid_db.json", "r") as f:
+  cid_db = load(f)
+
 lst = listdir("net.minecraft")
 
 # Upload to IPFS
 get_command_output("git add .")
-changed = get_command_output("git diff --name-only").split("\n")
 to_delete = []
 
 for i, version in enumerate(version_index["versions"]):
@@ -215,16 +218,16 @@ for i, version in enumerate(version_index["versions"]):
   if version["version"] + ".json" not in lst:
     to_delete.append(version["version"])
     continue
-  # Check if file is changed
-  if "net.minecraft/" + version["version"] + ".json" not in changed:
-    continue
-  # Upload file
-  path = find_cid(get_command_output("w3 put --no-wrap net.minecraft/" + version["version"] + ".json"))
   # Calculate sha1
   with open("net.minecraft/" + version["version"] + ".json", "rb") as f:
     version_index["versions"][i]["sha1"] = sha1(f.read()).hexdigest()
-  # Add path
-  version_index["versions"][i]["path"] = path
+  # If sha1 not in cid_db, upload
+  if version_index["versions"][i]["sha1"] not in cid_db:
+    # Upload file
+    path = find_cid(get_command_output("w3 put --no-wrap net.minecraft/" + version["version"] + ".json"))
+    # Add to cid_db
+    cid_db[version_index["versions"][i]["sha1"]] = path
+  version_index["versions"][i]["path"] = cid_db[version_index["versions"][i]["sha1"]]
 
 # Delete old versions
 for version in to_delete:
@@ -244,3 +247,8 @@ if "net.minecraft/index.json" in changed:
   with open("net.minecraft/index.json", "rb") as f:
     version_index["sha1"] = sha1(f.read()).hexdigest()
   print(f"SHA1: {version_index['sha1']}")
+
+# Save cid_db
+print("Saving cid_db...")
+with open("cid_db.json", "w") as f:
+  dump(cid_db, f, indent=2)
