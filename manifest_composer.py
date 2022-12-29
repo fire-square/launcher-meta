@@ -79,7 +79,7 @@ def main(url, version_id):
   # Download libraries
   print("Downloading libraries...")
 
-  for library in tqdm(manifest['libraries']):
+  for library in tqdm(manifest.get('libraries', [])):
     if library['downloads'].get('artifact', None) is not None:
       if library['downloads']['artifact']['sha1'] not in cid_db:
         download(library['downloads']['artifact']['url'], ASSET_PATH / "libraries" / library['downloads']['artifact']['sha1'])
@@ -109,7 +109,7 @@ def main(url, version_id):
 
 
     # Add libraries
-    for library in tqdm(manifest['libraries']):
+    for library in tqdm(manifest.get('libraries', [])):
       if library['downloads'].get('artifact', None) is not None:
         if library['downloads']['artifact']['sha1'] not in cid_db:
           cid_db[library['downloads']['artifact']['sha1']] = cid + "/libraries/" + library['downloads']['artifact']['sha1']
