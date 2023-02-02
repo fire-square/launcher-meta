@@ -5,6 +5,20 @@
   "versions": [
     {
       "recommended": false,
+      "releaseTime": "2023-02-01T14:20:33+00:00",
+      "requires": [
+        {
+          "suggests": "3.3.1",
+          "uid": "org.lwjgl3"
+        }
+      ],
+      "type": "snapshot",
+      "version": "23w05a",
+      "sha1": "cdf8a9565effc367091760751469db450ca9d0ee",
+      "path": "bafkreic43ymmfth5i72gomj4bnz55mjrriq3vtltwcpwxm6ev2g7qinbai"
+    },
+    {
+      "recommended": false,
       "releaseTime": "2023-01-24T15:19:06+00:00",
       "requires": [
         {
@@ -14,8 +28,8 @@
       ],
       "type": "snapshot",
       "version": "23w04a",
-      "sha1": "f1a1a66944c5f94ad64bc7fef33807a941def83d",
-      "path": "bafkreihk2ytsmmzfxmjyzjq3jcbukvlpahuwr4mmnopnpqcscemvnnolni"
+      "sha1": "ef523f38457db2a06fb01fe9f8366059f43ff9dd",
+      "path": "bafkreie7qwj65ow2tseoyjfmsennfxzslc25v5iay2xrtrsgewkwrlgkty"
     },
     {
       "recommended": false,
@@ -28,8 +42,8 @@
       ],
       "type": "snapshot",
       "version": "23w03a",
-      "sha1": "acef858e2e289b70e818dac846959ce803bd329c",
-      "path": "bafkreifhnur62qhiettqbztm36qvi76ffnmr7h2hmgzgfwcg7hyiko4lru"
+      "sha1": "5967b902df07c85261e54dac80c173d7b5e80d10",
+      "path": "bafkreif5hd5pxvk6xhxivqh2yvz6balmx2nq4bfhn7ttv62wrztirchcta"
     },
     {
       "recommended": true,
@@ -42,8 +56,8 @@
       ],
       "type": "release",
       "version": "1.19.3",
-      "sha1": "03e022cf25ea03a102218f0bac5bb3d4c5c0a052",
-      "path": "bafkreib3gafty4kfioigaddzid27fmrz7crh6qeooomkqbykrlllw4e7xu"
+      "sha1": "c0b810b7d83f92bd07d4d966d14dfd28d6a55ec0",
+      "path": "bafkreianx5gvnxegyn2o26frrpeendkj7msu54ut4htl6cw7ceb5lyowne"
     },
     {
       "recommended": false,
@@ -56,8 +70,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.3-rc3",
-      "sha1": "d4091d6f63a4dfdb8343f0a8870569e1c41f9999",
-      "path": "bafkreibqkssvvrrhmw5wzaldvhooj7ekqgwc3wnlswthag6jyofs7j7bcy"
+      "sha1": "ae7495c3a507de8cdd3bd76a51d0f7802e2578ea",
+      "path": "bafkreifqbcgpekquigxmjxmxm37qkl23dujxa55jnln2udgbl6ue4b5m5m"
     },
     {
       "recommended": false,
@@ -70,8 +84,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.3-rc2",
-      "sha1": "23ae9cad83234c4100b212f6e6840b081bb0747f",
-      "path": "bafkreic4n5u3bmcd2ts6ft76hr73fipss6jpkmnlbjti7ylb4cyp4axaw4"
+      "sha1": "65d2bd82348cdcfbbf5ca10bf89e5e539ec43132",
+      "path": "bafkreidpoouomszmcw2moc2qcjd2lpslh7ow7t22qbogwmj5hvg2j6mshy"
     },
     {
       "recommended": false,
@@ -84,8 +98,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.3-rc1",
-      "sha1": "99171a0f9f05ece2cd29854aad66aef30ee8012e",
-      "path": "bafkreic2yava57z6eftmfd4ugmedck2r5unvg4uoq3ppberrjml2fp7dzu"
+      "sha1": "e16fb08e4d9ef602463bba0d2b0de963c58cf18e",
+      "path": "bafkreietf37644227uqc7jzwuy37wsx7buz5qdje3htkp245g6vwus5xxa"
     },
     {
       "recommended": false,
@@ -98,8 +112,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.3-pre3",
-      "sha1": "4062c69eaa151c373578f3f6a8f434de72704356",
-      "path": "bafkreifrkyfisnai4d4fiyoqskg2fpogv6g5fstzgya3mv7gt6jmybpovm"
+      "sha1": "3e699fd896aa0491d3f28d09693e43d651a19202",
+      "path": "bafkreiafnxpcwiegca6svsqvbguzvedeiaex3hroiy3t3n5nqul5vgsaqu"
     },
     {
       "recommended": false,
@@ -112,8 +126,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.3-pre2",
-      "sha1": "8f89b93d8885cb5fd1ce25224a5de046d813a832",
-      "path": "bafkreiaehy5ytnfv6ix7drbtcsbixfko7hbvzqxszrrmznu6itiav7ofpm"
+      "sha1": "a3b738ed5f2f34246dc12dd5adcc6d88c1ffc816",
+      "path": "bafkreieq2otgl3bcsph3gszsue6psiau55sqktbcoxdkceoz3ojyg67ioy"
     },
     {
       "recommended": false,
@@ -126,8 +140,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.3-pre1",
-      "sha1": "32510fcabea6fdae7e68c5b4fb4552d681f3d594",
-      "path": "bafkreifq5lpmlecmjau5vlxnj6eo4oqrscrlrgaivjnar5gauwyr7a7iwy"
+      "sha1": "99899b6a820518f51b7508f426b64dcba86ae8e3",
+      "path": "bafkreifxk4keewmdlnezsewe5cw42lcqke5imerijwfhdjkzblmehidyou"
     },
     {
       "recommended": false,
@@ -140,8 +154,8 @@
       ],
       "type": "snapshot",
       "version": "22w46a",
-      "sha1": "66ee7360e48a212d73a44231ab16b14a8a7cba8a",
-      "path": "bafkreibbp4pb4aq5upizbp4a66m4cm2x3hjmhjpzgradjxigteerruzjye"
+      "sha1": "744c5e8d4848a985fcad35f552258c5c3ce6a771",
+      "path": "bafkreievgvukzc66emiyadh57xblv7tzzxzimsk7ltply5sgjaf6sm7o5i"
     },
     {
       "recommended": false,
@@ -154,8 +168,8 @@
       ],
       "type": "snapshot",
       "version": "22w45a",
-      "sha1": "47febb83c49a22715cbddb2d29a35c3cb958dcae",
-      "path": "bafkreifiulkll5qa3vutbtiyu3rcbemmx7d3trbbwmutdamgwwfvindqxa"
+      "sha1": "bf3218665ee0f49647045320886c0468877aa5d1",
+      "path": "bafkreiezcha4gmuibwv2iaes4bm4r5rpjrji4jtxslhbj2zw6nggr7y62e"
     },
     {
       "recommended": false,
@@ -168,8 +182,8 @@
       ],
       "type": "snapshot",
       "version": "22w44a",
-      "sha1": "9361bdc97521d910cebc6cf616dc72be27a8e1bd",
-      "path": "bafkreiabf5ruvxi5hmmnjrg5p4tm5dppbyi73d5jkwqafzmkfmkin4vcua"
+      "sha1": "2dce648031cc24a63acfb513187d0250e4950fc3",
+      "path": "bafkreibf5vsv3r7tddfqhhqsmqckeh6moodkrbwlen5qwmpffbaaveviee"
     },
     {
       "recommended": false,
@@ -182,8 +196,8 @@
       ],
       "type": "snapshot",
       "version": "22w43a",
-      "sha1": "11ba874ca29396ce46a2924fcba75b9d72b0eee9",
-      "path": "bafkreih2typ5oc5njtl6cfinn2gk4hlue3tjk3zzdplow26h47repm2xtu"
+      "sha1": "58c9f8f3eaee1263d1664f3770068ecd2407cc06",
+      "path": "bafkreihuhk4l4igaqge5jlfc7jbfwy53zr26zm4rxn7qgdyiuoaqzfdtt4"
     },
     {
       "recommended": false,
@@ -196,8 +210,8 @@
       ],
       "type": "snapshot",
       "version": "22w42a",
-      "sha1": "b11af3d0b3ac65143f7d2610af8854e0ff0db6c6",
-      "path": "bafkreidurm6ptix6drpc2qs7fbcjhmojyavvevc6ldkwdyy22rwcdqxsy4"
+      "sha1": "101c3f850fe6be65d4bdc05f5b1d0169f3014a8a",
+      "path": "bafkreif7w4erxpwitrhbp6g5mlsjx25mtbh3deloluv6zngjdfq2zgq6va"
     },
     {
       "recommended": false,
