@@ -20,7 +20,7 @@ def download(cid, count = True):
   if count:
     tasks += 1
   try:
-    url = f"https://ipfs.frsqr.xyz/ipfs/{cid}"
+    url = f"https://ipfs.cofob.dev/ipfs/{cid}"
     r = requests.get(url)
     if r.status_code != 200:
       errors += 1
