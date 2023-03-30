@@ -5,10 +5,10 @@
   ],
   "assetIndex": {
     "id": "1",
-    "sha1": "8f494120d722236a6b1eff569ad8709cac669d2e",
+    "sha1": "921dc6fba02a0d95638c39c02d15e456dddafa40",
     "size": 869121,
-    "totalSize": 551499676,
-    "path": "bafkreidb5rx3sgcxj2qstlogsvqgbmufbkqnf5576vsaqiqbrkwkh3o5di"
+    "totalSize": 551611019,
+    "path": "bafkreiae5slmwwaewzyqhmfexp5l22rt5gve6wtg4czuq5b6i6swysoqru"
   },
   "compatibleJavaMajors": [
     17
@@ -167,18 +167,7 @@
           "path": "bafybeidwcbpvbjmkdaxbc6dqhorv2ttvcyrszinmgidwjh5wlquvbnw4cq/libraries/5f4e3a6ef86cb021f7ca87ca192cddb50c26eb59"
         }
       },
-      "name": "com.mojang:text2speech:1.13.9",
-      "rules": [
-        {
-          "action": "allow"
-        },
-        {
-          "action": "disallow",
-          "os": {
-            "name": "osx-arm64"
-          }
-        }
-      ]
+      "name": "com.mojang:text2speech:1.13.9"
     },
     {
       "downloads": {
@@ -481,24 +470,6 @@
         }
       },
       "name": "org.slf4j:slf4j-api:1.8.0-beta4"
-    },
-    {
-      "downloads": {
-        "artifact": {
-          "sha1": "f378f889797edd7df8d32272c06ca80a1b6b0f58",
-          "size": 13164,
-          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/f378f889797edd7df8d32272c06ca80a1b6b0f58"
-        }
-      },
-      "name": "com.mojang:text2speech:1.11.3",
-      "rules": [
-        {
-          "action": "allow",
-          "os": {
-            "name": "osx-arm64"
-          }
-        }
-      ]
     }
   ],
   "mainClass": "net.minecraft.client.main.Main",

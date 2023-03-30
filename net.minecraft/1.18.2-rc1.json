@@ -303,18 +303,7 @@
           "path": "bafybeiagqmt4nb3arit3pl4jv7iu3wqdnoioo4ra34evnlpa7bgrdgguhy/libraries/1f618f522dbdd93218c270bcfd8f8dd84be31717"
         }
       },
-      "name": "com.mojang:text2speech:1.12.4",
-      "rules": [
-        {
-          "action": "allow"
-        },
-        {
-          "action": "disallow",
-          "os": {
-            "name": "osx-arm64"
-          }
-        }
-      ]
+      "name": "com.mojang:text2speech:1.12.4"
     },
     {
       "downloads": {
@@ -345,18 +334,7 @@
       "natives": {
         "linux": "natives-linux",
         "windows": "natives-windows"
-      },
-      "rules": [
-        {
-          "action": "allow"
-        },
-        {
-          "action": "disallow",
-          "os": {
-            "name": "osx-arm64"
-          }
-        }
-      ]
+      }
     },
     {
       "downloads": {
@@ -405,24 +383,6 @@
           "action": "allow",
           "os": {
             "name": "osx"
-          }
-        }
-      ]
-    },
-    {
-      "downloads": {
-        "artifact": {
-          "sha1": "f378f889797edd7df8d32272c06ca80a1b6b0f58",
-          "size": 13164,
-          "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/f378f889797edd7df8d32272c06ca80a1b6b0f58"
-        }
-      },
-      "name": "com.mojang:text2speech:1.11.3",
-      "rules": [
-        {
-          "action": "allow",
-          "os": {
-            "name": "osx-arm64"
           }
         }
       ]
