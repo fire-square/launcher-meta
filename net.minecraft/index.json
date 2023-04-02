@@ -5,6 +5,20 @@
   "versions": [
     {
       "recommended": false,
+      "releaseTime": "2023-04-01T12:52:18+00:00",
+      "requires": [
+        {
+          "suggests": "3.3.1",
+          "uid": "org.lwjgl3"
+        }
+      ],
+      "type": "snapshot",
+      "version": "23w13a_or_b",
+      "sha1": "169a9f4709b010f1a81051298655a2401ebef8d3",
+      "path": "bafkreifygmwlckj4kmi5iota2sucmcebyjj6zknm6c5rdmazf3mokte3ze"
+    },
+    {
+      "recommended": false,
       "releaseTime": "2023-03-29T13:54:16+00:00",
       "requires": [
         {
