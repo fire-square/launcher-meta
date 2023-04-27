@@ -4,11 +4,11 @@
     "FirstThreadOnMacOS"
   ],
   "assetIndex": {
-    "id": "3",
-    "sha1": "2577ede553d8d109952220293c4fdd560f1b56e2",
-    "size": 912494,
-    "totalSize": 555704238,
-    "path": "bafkreigznpj3raoedhqo663kvu36dxltokowbo7tzhw7wbbcaopaqhl3zm"
+    "id": "5",
+    "sha1": "eea85532d4879a3a8151145829b285a8e7a2560e",
+    "size": 914933,
+    "totalSize": 612777841,
+    "path": "bafkreifjisj3oovuhsjj6h25uczimsqlon35nu77qxv3icjkjmombunpge"
   },
   "compatibleJavaMajors": [
     17
@@ -92,12 +92,12 @@
     {
       "downloads": {
         "artifact": {
-          "sha1": "016106b26bce62bda55bab42785b999e44d77ecb",
-          "size": 118354,
-          "path": "bafybeibjuoiqcd4gjpzumwexe5r6f67ke5w2lhnvhvg64dha433j47l3gm/libraries/016106b26bce62bda55bab42785b999e44d77ecb"
+          "sha1": "3381044d57a291a541ca0836b0119abe063acb93",
+          "size": 121603,
+          "path": "bafybeib2vlwpvf35fi5m3b2kldbx376k6uify4t6lvppp52cq6qofv2u6q/libraries/3381044d57a291a541ca0836b0119abe063acb93"
         }
       },
-      "name": "com.mojang:authlib:3.18.38"
+      "name": "com.mojang:authlib:4.0.42"
     },
     {
       "downloads": {
@@ -112,22 +112,22 @@
     {
       "downloads": {
         "artifact": {
-          "sha1": "c1ef1234282716483c92183f49bef47b1a89bfa9",
-          "size": 77116,
-          "path": "bafybeidwcbpvbjmkdaxbc6dqhorv2ttvcyrszinmgidwjh5wlquvbnw4cq/libraries/c1ef1234282716483c92183f49bef47b1a89bfa9"
+          "sha1": "5244ce82c3337bba4a196a3ce858bfaecc74404a",
+          "size": 77121,
+          "path": "bafybeifjyj5rkioqfrpwgid3p4h5n5uiqzhhzbjdoc6hkkx6a5rsbvyqeu/libraries/5244ce82c3337bba4a196a3ce858bfaecc74404a"
         }
       },
-      "name": "com.mojang:brigadier:1.0.18"
+      "name": "com.mojang:brigadier:1.1.8"
     },
     {
       "downloads": {
         "artifact": {
-          "sha1": "e38e20946530646e866db03b2b192883d0ea6e84",
-          "size": 689986,
-          "path": "bafybeia7zirmsxw2swxuh2jv4gv7wktujt77kmr2lj7qqourhdibyrco7m/libraries/e38e20946530646e866db03b2b192883d0ea6e84"
+          "sha1": "3ba4a30557a9b057760af4011f909ba619fc5125",
+          "size": 689960,
+          "path": "bafybeiesbn4b7oqvl57frwd2r2ed5iyqqal6uejjmohnkg6dvypjbyoc2u/libraries/3ba4a30557a9b057760af4011f909ba619fc5125"
         }
       },
-      "name": "com.mojang:datafixerupper:6.0.6"
+      "name": "com.mojang:datafixerupper:6.0.8"
     },
     {
       "downloads": {
@@ -440,17 +440,17 @@
   "mainJar": {
     "downloads": {
       "artifact": {
-        "sha1": "a45634ab061beb8c878ccbe4a59c3315f9c0266f",
-        "size": 23476407,
-        "path": "bafybeiaax4qvpmyuim33jsj7s3g6c4wh4fwk4whxjteix2fnnmf5lz57za/client.jar"
+        "sha1": "670d97ddfe62983a7bfa7c6c6f502d6157735bf8",
+        "size": 22892644,
+        "path": "bafybeib2vlwpvf35fi5m3b2kldbx376k6uify4t6lvppp52cq6qofv2u6q/client.jar"
       }
     },
-    "name": "com.mojang:minecraft:1.19.4-rc3:client"
+    "name": "com.mojang:minecraft:23w17a:client"
   },
   "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
   "name": "Minecraft",
   "order": -2,
-  "releaseTime": "2023-03-13T10:03:11+00:00",
+  "releaseTime": "2023-04-26T12:09:48+00:00",
   "requires": [
     {
       "suggests": "3.3.1",
@@ -459,5 +459,5 @@
   ],
   "type": "snapshot",
   "uid": "net.minecraft",
-  "version": "1.19.4-rc3"
+  "version": "23w17a"
 }

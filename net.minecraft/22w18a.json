@@ -383,47 +383,6 @@
     {
       "downloads": {
         "artifact": {
-          "sha1": "5f4e3a6ef86cb021f7ca87ca192cddb50c26eb59",
-          "size": 12123,
-          "path": "bafybeidwcbpvbjmkdaxbc6dqhorv2ttvcyrszinmgidwjh5wlquvbnw4cq/libraries/5f4e3a6ef86cb021f7ca87ca192cddb50c26eb59"
-        }
-      },
-      "name": "com.mojang:text2speech:1.13.9"
-    },
-    {
-      "downloads": {
-        "artifact": {
-          "sha1": "5f4e3a6ef86cb021f7ca87ca192cddb50c26eb59",
-          "size": 12123,
-          "path": "bafybeidwcbpvbjmkdaxbc6dqhorv2ttvcyrszinmgidwjh5wlquvbnw4cq/libraries/5f4e3a6ef86cb021f7ca87ca192cddb50c26eb59"
-        },
-        "classifiers": {
-          "natives-linux": {
-            "sha1": "6c63ecb3b6408dcfdde6440c9ee62c060542af33",
-            "size": 7833,
-            "path": "bafybeidwcbpvbjmkdaxbc6dqhorv2ttvcyrszinmgidwjh5wlquvbnw4cq/libraries/6c63ecb3b6408dcfdde6440c9ee62c060542af33"
-          },
-          "natives-windows": {
-            "sha1": "7a90898b29e5c72f90ba6ebe86fa78a6afd7d3eb",
-            "size": 81379,
-            "path": "bafybeidwcbpvbjmkdaxbc6dqhorv2ttvcyrszinmgidwjh5wlquvbnw4cq/libraries/7a90898b29e5c72f90ba6ebe86fa78a6afd7d3eb"
-          }
-        }
-      },
-      "extract": {
-        "exclude": [
-          "META-INF/"
-        ]
-      },
-      "name": "com.mojang:text2speech:1.13.9",
-      "natives": {
-        "linux": "natives-linux",
-        "windows": "natives-windows"
-      }
-    },
-    {
-      "downloads": {
-        "artifact": {
           "sha1": "1227f9e0666314f9de41477e3ec277e542ed7f7b",
           "size": 1330045,
           "path": "bafybeidwcbpvbjmkdaxbc6dqhorv2ttvcyrszinmgidwjh5wlquvbnw4cq/libraries/1227f9e0666314f9de41477e3ec277e542ed7f7b"
@@ -444,6 +403,16 @@
           }
         }
       ]
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "ee4095669061d1fe4bce5fea23d69d1520bc2d58",
+          "size": 12279,
+          "path": "bafybeib2vlwpvf35fi5m3b2kldbx376k6uify4t6lvppp52cq6qofv2u6q/libraries/ee4095669061d1fe4bce5fea23d69d1520bc2d58"
+        }
+      },
+      "name": "com.mojang:text2speech:1.16.7"
     }
   ],
   "mainClass": "net.minecraft.client.main.Main",
