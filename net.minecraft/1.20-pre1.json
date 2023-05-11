@@ -4,11 +4,11 @@
     "FirstThreadOnMacOS"
   ],
   "assetIndex": {
-    "id": "2",
-    "sha1": "708b96917449275b466842d2e14f007d0f2d2994",
-    "size": 903071,
-    "totalSize": 557208358,
-    "path": "bafkreiaheryd23xlzp57cbtmlq77suv3grvopnesub6mu5yg7xeizzu2yq"
+    "id": "5",
+    "sha1": "62d7e38429a1db45b1fbe839d15dd36fb59c0920",
+    "size": 914933,
+    "totalSize": 615044172,
+    "path": "bafkreicukndbggdjgn3my6qkhxv2yndlcrpbhv4vfiuad2teutxchixhuq"
   },
   "compatibleJavaMajors": [
     17
@@ -92,12 +92,12 @@
     {
       "downloads": {
         "artifact": {
-          "sha1": "a562f3bbe97501089e3fbe3b43d95ff69c60c723",
-          "size": 118007,
-          "path": "bafybeih3yoeherl5wu3fyetbkfy2wfhuweictojohjggvmp2vxb2eggpxq/libraries/a562f3bbe97501089e3fbe3b43d95ff69c60c723"
+          "sha1": "3381044d57a291a541ca0836b0119abe063acb93",
+          "size": 121603,
+          "path": "bafybeib2vlwpvf35fi5m3b2kldbx376k6uify4t6lvppp52cq6qofv2u6q/libraries/3381044d57a291a541ca0836b0119abe063acb93"
         }
       },
-      "name": "com.mojang:authlib:3.15.28"
+      "name": "com.mojang:authlib:4.0.42"
     },
     {
       "downloads": {
@@ -112,32 +112,22 @@
     {
       "downloads": {
         "artifact": {
-          "sha1": "c1ef1234282716483c92183f49bef47b1a89bfa9",
-          "size": 77116,
-          "path": "bafybeidwcbpvbjmkdaxbc6dqhorv2ttvcyrszinmgidwjh5wlquvbnw4cq/libraries/c1ef1234282716483c92183f49bef47b1a89bfa9"
+          "sha1": "5244ce82c3337bba4a196a3ce858bfaecc74404a",
+          "size": 77121,
+          "path": "bafybeifjyj5rkioqfrpwgid3p4h5n5uiqzhhzbjdoc6hkkx6a5rsbvyqeu/libraries/5244ce82c3337bba4a196a3ce858bfaecc74404a"
         }
       },
-      "name": "com.mojang:brigadier:1.0.18"
+      "name": "com.mojang:brigadier:1.1.8"
     },
     {
       "downloads": {
         "artifact": {
-          "sha1": "e2157e236e529aff80a5fc3ccb506e56d46b130b",
-          "size": 684966,
-          "path": "bafybeidwcbpvbjmkdaxbc6dqhorv2ttvcyrszinmgidwjh5wlquvbnw4cq/libraries/e2157e236e529aff80a5fc3ccb506e56d46b130b"
+          "sha1": "3ba4a30557a9b057760af4011f909ba619fc5125",
+          "size": 689960,
+          "path": "bafybeiesbn4b7oqvl57frwd2r2ed5iyqqal6uejjmohnkg6dvypjbyoc2u/libraries/3ba4a30557a9b057760af4011f909ba619fc5125"
         }
       },
-      "name": "com.mojang:datafixerupper:5.0.28"
-    },
-    {
-      "downloads": {
-        "artifact": {
-          "sha1": "bfa589b0bd71588fa7e594640114b0cda0cff5f6",
-          "size": 5884,
-          "path": "bafybeidwcbpvbjmkdaxbc6dqhorv2ttvcyrszinmgidwjh5wlquvbnw4cq/libraries/bfa589b0bd71588fa7e594640114b0cda0cff5f6"
-        }
-      },
-      "name": "com.mojang:javabridge:2.0.25"
+      "name": "com.mojang:datafixerupper:6.0.8"
     },
     {
       "downloads": {
@@ -162,12 +152,12 @@
     {
       "downloads": {
         "artifact": {
-          "sha1": "ee4095669061d1fe4bce5fea23d69d1520bc2d58",
-          "size": 12279,
-          "path": "bafybeib2vlwpvf35fi5m3b2kldbx376k6uify4t6lvppp52cq6qofv2u6q/libraries/ee4095669061d1fe4bce5fea23d69d1520bc2d58"
+          "sha1": "01b3a7718bbdad624537597ff3ca38a0f232df87",
+          "size": 12238,
+          "path": "bafybeicdts5z5f42q2qehlrib4suagzu7vtiylzji6yja4oiu44jwtelmy/libraries/01b3a7718bbdad624537597ff3ca38a0f232df87"
         }
       },
-      "name": "com.mojang:text2speech:1.16.7"
+      "name": "com.mojang:text2speech:1.16.8"
     },
     {
       "downloads": {
@@ -450,17 +440,17 @@
   "mainJar": {
     "downloads": {
       "artifact": {
-        "sha1": "fcb3e5462fb4cf29da933005ddac269dd31087ff",
-        "size": 22667125,
-        "path": "bafybeihv2ycui33aza63vrbipx6mjfm2azesbfpnauodcxett2nxjnjfuy/client.jar"
+        "sha1": "07dfbe4c383c4bb6d26254e49c0fce5398bab5b5",
+        "size": 23679158,
+        "path": "bafybeicdts5z5f42q2qehlrib4suagzu7vtiylzji6yja4oiu44jwtelmy/client.jar"
       }
     },
-    "name": "com.mojang:minecraft:22w46a:client"
+    "name": "com.mojang:minecraft:1.20-pre1:client"
   },
   "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
   "name": "Minecraft",
   "order": -2,
-  "releaseTime": "2022-11-16T13:32:50+00:00",
+  "releaseTime": "2023-05-10T12:19:34+00:00",
   "requires": [
     {
       "suggests": "3.3.1",
@@ -469,5 +459,5 @@
   ],
   "type": "snapshot",
   "uid": "net.minecraft",
-  "version": "22w46a"
+  "version": "1.20-pre1"
 }
