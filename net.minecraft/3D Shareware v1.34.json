@@ -4,10 +4,10 @@
   ],
   "assetIndex": {
     "id": "1.14-af",
-    "sha1": "2841a5df1b4386637c466badd1b87128519c8f3d",
-    "size": 509646,
-    "totalSize": 206145089,
-    "path": "bafkreifdy5pyojpf6o5uzmr3lhd5ynjkms54h2z6zpcbpe4ldyqgenwq4e"
+    "sha1": "4ffe753a560348d505094cbaee8f90887103d6ec",
+    "size": 509710,
+    "totalSize": 206652481,
+    "path": "bafkreigj3nkmmdmmix4ylepcm64yz72ss6l33ygllhoph5ddc3ov5fjo24"
   },
   "compatibleJavaMajors": [
     8
@@ -292,11 +292,6 @@
             "sha1": "73e36a0422aacf7d62a16062cb719584d617bc30",
             "size": 81379,
             "path": "bafybeieitbdxa2z7zfuaywv7y4n4crjpllbtgsjciteidumu3cpbugjwka/libraries/73e36a0422aacf7d62a16062cb719584d617bc30"
-          },
-          "sources": {
-            "sha1": "25ce7ef0473ea68db3f51c5681cf7b4d81905828",
-            "size": 5258,
-            "path": "bafybeieitbdxa2z7zfuaywv7y4n4crjpllbtgsjciteidumu3cpbugjwka/libraries/25ce7ef0473ea68db3f51c5681cf7b4d81905828"
           }
         }
       },
@@ -330,20 +325,10 @@
           "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/6ef160c3133a78de015830860197602ca1c855d3"
         },
         "classifiers": {
-          "javadoc": {
-            "sha1": "fb0092f22cb4fe8e631452f577b7a238778abf2a",
-            "size": 174060,
-            "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/fb0092f22cb4fe8e631452f577b7a238778abf2a"
-          },
           "natives-osx": {
             "sha1": "08befab4894d55875f33c3d300f4f71e6e828f64",
             "size": 5629,
             "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/08befab4894d55875f33c3d300f4f71e6e828f64"
-          },
-          "sources": {
-            "sha1": "865837a198189aee737019561ece842827f24278",
-            "size": 43283,
-            "path": "bafybeidzdxgmrkqslwkur3aeh2y3tr3jpcd726etl2uk4kdihzxonaxv4i/libraries/865837a198189aee737019561ece842827f24278"
           }
         }
       },
