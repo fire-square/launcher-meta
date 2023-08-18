@@ -4,11 +4,11 @@
     "FirstThreadOnMacOS"
   ],
   "assetIndex": {
-    "id": "5",
-    "sha1": "e6e23ec241e6c8c885b7726b54a59de96651e7df",
-    "size": 916784,
-    "totalSize": 618260075,
-    "path": "bafkreiehfpoag3gky4rul4rhmec5xput2hhncq5xxzeixbgtyk33busywm"
+    "id": "7",
+    "sha1": "5157f5b7d17195594dfb7a3d4ec5f4fdf6f6911c",
+    "size": 922409,
+    "totalSize": 618757009,
+    "path": "bafkreiayvccfmdff5pgbifnx32kkmmkowz5rczz4qx6x3xyo3t7uczlpwy"
   },
   "compatibleJavaMajors": [
     17
@@ -92,12 +92,12 @@
     {
       "downloads": {
         "artifact": {
-          "sha1": "3381044d57a291a541ca0836b0119abe063acb93",
-          "size": 121603,
-          "path": "bafybeib2vlwpvf35fi5m3b2kldbx376k6uify4t6lvppp52cq6qofv2u6q/libraries/3381044d57a291a541ca0836b0119abe063acb93"
+          "sha1": "ff7fd2e80a767f6c369fa2065f018ba21d153cbd",
+          "size": 111087,
+          "path": "bafybeiexcwoa34qnv7qa524l7pfrofgozblgc2izr7mdawxeaitwyjyqkq/libraries/ff7fd2e80a767f6c369fa2065f018ba21d153cbd"
         }
       },
-      "name": "com.mojang:authlib:4.0.42"
+      "name": "com.mojang:authlib:5.0.47"
     },
     {
       "downloads": {
@@ -440,17 +440,17 @@
   "mainJar": {
     "downloads": {
       "artifact": {
-        "sha1": "42a04baaf41f8d132f08f515aca4b0050d68fb1c",
-        "size": 23003248,
-        "path": "bafybeigve6vxybonelq5jewwrdaqmpuhjl6pa46kofnotfrwaxqxe6ipbq/client.jar"
+        "sha1": "94e539731458bd2e98a204892b0ed55f715a5011",
+        "size": 23134811,
+        "path": "bafybeiexcwoa34qnv7qa524l7pfrofgozblgc2izr7mdawxeaitwyjyqkq/client.jar"
       }
     },
-    "name": "com.mojang:minecraft:1.20-pre2:client"
+    "name": "com.mojang:minecraft:23w33a:client"
   },
   "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
   "name": "Minecraft",
   "order": -2,
-  "releaseTime": "2023-05-16T11:34:54+00:00",
+  "releaseTime": "2023-08-17T11:39:08+00:00",
   "requires": [
     {
       "suggests": "3.3.1",
@@ -459,5 +459,5 @@
   ],
   "type": "snapshot",
   "uid": "net.minecraft",
-  "version": "1.20-pre2"
+  "version": "23w33a"
 }
