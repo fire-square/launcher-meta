@@ -1,4 +1,7 @@
 {
+  "+traits": [
+    "legacyServices"
+  ],
   "assetIndex": {
     "id": "legacy",
     "sha1": "1a232374093c3d88ed3bd851cbab3f41442649c3",
