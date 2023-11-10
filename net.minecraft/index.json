@@ -5,6 +5,20 @@
   "versions": [
     {
       "recommended": false,
+      "releaseTime": "2023-11-08T13:59:58+00:00",
+      "requires": [
+        {
+          "suggests": "3.3.2",
+          "uid": "org.lwjgl3"
+        }
+      ],
+      "type": "snapshot",
+      "version": "23w45a",
+      "sha1": "11f8b12d3d5ed4f8a7fb13732432373f3012183c",
+      "path": "bafkreiap7yl77oqf75mxn63szqf6yicpxzhhesd4jckuiy3uosaomcvnyi"
+    },
+    {
+      "recommended": false,
       "releaseTime": "2023-11-01T12:30:52+00:00",
       "requires": [
         {
@@ -14,8 +28,8 @@
       ],
       "type": "snapshot",
       "version": "23w44a",
-      "sha1": "80aa9c28dcca67e1ac7c648d960f3246f804e065",
-      "path": "bafkreihei6dsh744zicrtb6bdcpb7l2u76c775tk5mio4y2n4pawwtnxpq"
+      "sha1": "7ba9bdf5d6979d5c76e295f17ccbec37a856257d",
+      "path": "bafkreib3coaby44ay3hj6ivz3vvf4havfbnlt3abrtesuyhpbbca4vbbgi"
     },
     {
       "recommended": false,
@@ -28,8 +42,8 @@
       ],
       "type": "snapshot",
       "version": "23w43b",
-      "sha1": "b4d55bf0629b405fe39ae08a82ee6b67feae8e1c",
-      "path": "bafkreiakd3kuxkcexr6wvlxmjbgptwluhjnwlqekjm7htelzvymzi2kfny"
+      "sha1": "03385aa2f2bf9c877a5ba73329a01384f1a179a2",
+      "path": "bafkreib5ryformh2chgpv4tp6u3dqdqnysfioc623wfompy4bgxwgfj2vu"
     },
     {
       "recommended": false,
@@ -42,8 +56,8 @@
       ],
       "type": "snapshot",
       "version": "23w43a",
-      "sha1": "f7652a8c1592fcd2cb6e1071d7f8215767b1bba5",
-      "path": "bafkreihiztvexqdmdfetqfcmdtrmryy2ghbpcxm22ixyrfbos6y5hlqwm4"
+      "sha1": "b38814b89cba51f5dd56ca0518195ea07f26a916",
+      "path": "bafkreiegftrvctmlo6rmx4wrywy5tpijdbrjbe3n3n7xqnmeszuxtriaqm"
     },
     {
       "recommended": false,
