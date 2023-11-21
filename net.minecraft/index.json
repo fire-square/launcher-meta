@@ -5,6 +5,20 @@
   "versions": [
     {
       "recommended": false,
+      "releaseTime": "2023-11-20T15:40:14+00:00",
+      "requires": [
+        {
+          "suggests": "3.3.2",
+          "uid": "org.lwjgl3"
+        }
+      ],
+      "type": "snapshot",
+      "version": "1.20.3-pre1",
+      "sha1": "1e5ddb8204f15eb002e4adf234467b8038caa4dd",
+      "path": "bafkreiguiudcy3w4tmbdkmdco3zjwbovy5fxkcd53f34dsncprnje6l7ei"
+    },
+    {
+      "recommended": false,
       "releaseTime": "2023-11-16T14:11:33+00:00",
       "requires": [
         {
@@ -14,8 +28,8 @@
       ],
       "type": "snapshot",
       "version": "23w46a",
-      "sha1": "b29e194dab07298e0559e14bbcaa5aa8efac68e3",
-      "path": "bafkreic34hcbh7hubp4qaseefwtcarlntioy5che5jignylmbl3czz7t3q"
+      "sha1": "3384b866dd756fe99c5c8b87be8ce9709425d75b",
+      "path": "bafkreihpkwjsinh7wpcblebs2ama2c64e2osktnahmlkpcqhzddgcwsqwy"
     },
     {
       "recommended": false,
@@ -28,8 +42,8 @@
       ],
       "type": "snapshot",
       "version": "23w45a",
-      "sha1": "fbc649fd77f57290fc576f966308bb384734b4b9",
-      "path": "bafkreidntf2uz25ro5zbt2bdn65f4kuydmv2wfnzn7nzrtesv6pmbtrn3m"
+      "sha1": "9fcfe58dbcb15ea57911b8f5d02aba50b8ee6caa",
+      "path": "bafkreicvelu2dwfopyier4243ybz32ydwpkk4x6wfqohry3mee2r3sep2m"
     },
     {
       "recommended": false,
@@ -42,8 +56,8 @@
       ],
       "type": "snapshot",
       "version": "23w44a",
-      "sha1": "780aae4621c3bebf0abfea78d0fcc7b4b8364508",
-      "path": "bafkreibunyxmzjya2rprv7tkybtzo5nhcrf7obwoz2yghdtyrhpe7bkvgi"
+      "sha1": "81a3906d68831ff1f1beff161efc1894ff13419f",
+      "path": "bafkreicgpsc522akm4wkchary35pgnojhjjoflb5ejidwxpyopeli3qwtq"
     },
     {
       "recommended": false,
@@ -56,8 +70,8 @@
       ],
       "type": "snapshot",
       "version": "23w43b",
-      "sha1": "7ac46cf3846f0713cd53e2c6bfe40974e3b2abae",
-      "path": "bafkreidsnyiwz4qkga6oe4n2wxvnikfhnmhy65ty5ypf7ydeoom5owsfhm"
+      "sha1": "d50059baec6104e03c26d6b5930e7cfb123324de",
+      "path": "bafkreibkfuzi2ramphdi5vxmixo7jwveokwubk45gykloy4z72no2xhiam"
     },
     {
       "recommended": false,
@@ -70,8 +84,8 @@
       ],
       "type": "snapshot",
       "version": "23w43a",
-      "sha1": "50d43f1cdb7764989d3f69b0ca57b567dfd20154",
-      "path": "bafkreig3tybvhq3grc4lksa2dojit6caauyu6h4dfgxarqy5tnbvkcwx6q"
+      "sha1": "ce2230a5d54ee1a17884cca8905fe46f753074d8",
+      "path": "bafkreiazblitlvkueqyj2cfafd6b3wccbbx2uwqtczhxmsrgpgvxdltjc4"
     },
     {
       "recommended": false,
@@ -84,8 +98,8 @@
       ],
       "type": "snapshot",
       "version": "23w42a",
-      "sha1": "941b47d170a08f1746a760eca318492cc27c0f36",
-      "path": "bafkreifnb65gftsi5zolpwgfteuinu5l3d4wydx5owvp5hoy3c3w5rc5zi"
+      "sha1": "41ff590f700a2da9d0d68a65810c238597de63a6",
+      "path": "bafkreid452vscjkng3zjoedpnjm3ftxg5dds6viiyv3z7wyinxicx53wqe"
     },
     {
       "recommended": false,
@@ -98,8 +112,8 @@
       ],
       "type": "snapshot",
       "version": "23w41a",
-      "sha1": "484f343374b790ac9fde00145821fc394a4465f5",
-      "path": "bafkreibpboxctfcnnvhx5b2gwv6njhfxwhvvyepabng2hgmlghkdjobxyy"
+      "sha1": "7c0fc7189cfd7502217c6ce8f3716ebebeb9d992",
+      "path": "bafkreicleepkfl5vzpfknaehqud6xqt2zz4e72k6ovvbrgw74hjm27hdfm"
     },
     {
       "recommended": false,
@@ -112,8 +126,8 @@
       ],
       "type": "snapshot",
       "version": "23w40a",
-      "sha1": "130abe02eb495032a393bdaf1f13eb6d2832360e",
-      "path": "bafkreidbw45yvqlj477mrvek3frodaf6oagryiqirhp5u3462poszgyfde"
+      "sha1": "89d6f448d7a88402dee401c7e29043bcd921fc39",
+      "path": "bafkreiejpvgcfefvne4c4gsbknp7224n2gvwyx52bhfuiar2drmawhuvdu"
     },
     {
       "recommended": true,
@@ -126,8 +140,8 @@
       ],
       "type": "release",
       "version": "1.20.2",
-      "sha1": "70b65003b46ee94887171e43fd7e8b9279656169",
-      "path": "bafkreift3oept5667whoa7iflgohtrafgd3fs2wtavmbnj4vkonztdxnye"
+      "sha1": "116af24c5bb07f300b07881a60b6ea4378a9691a",
+      "path": "bafkreidjde7chbfrya5kulvar5ks26h2bdp4dkbov4thy7bhmmxjz2ep2m"
     },
     {
       "recommended": false,
@@ -140,8 +154,8 @@
       ],
       "type": "snapshot",
       "version": "1.20.2-rc2",
-      "sha1": "9448c5c4d71bd0b48f8402d0659531da4ad00bf1",
-      "path": "bafkreiaesxevtzaem3ko5vhpzy34wtxwomuhcjz5rgizbvqq4qlwdnbzr4"
+      "sha1": "f5c215305619c437787696d4d7db86baeec6f5e7",
+      "path": "bafkreicdl7nsti3ix7ut23v7rupuxc5i56bnr7d3dhfzs23s43krk4m5nu"
     },
     {
       "recommended": false,
@@ -154,8 +168,8 @@
       ],
       "type": "snapshot",
       "version": "1.20.2-rc1",
-      "sha1": "f7cdcc4cd3da600fdcd9d5df4edc2dc70adba57e",
-      "path": "bafkreiho5kpvdsy3gmckbikkyzq7vfkjtnfu5qfanr6nmqb6bnkuodprs4"
+      "sha1": "8a6ae67764a118e116f68c32d58cab733184e20a",
+      "path": "bafkreignwdsfb7xdzxlrblin6b5uudm6scna5hmfihfgpwnyjwhfeu55im"
     },
     {
       "recommended": false,
@@ -168,8 +182,8 @@
       ],
       "type": "snapshot",
       "version": "1.20.2-pre4",
-      "sha1": "c12c36d2097a86276f0f4ef377935b8ca217ec67",
-      "path": "bafkreiemkjldurhlfihjiymijjcnjt7wgem3bbuyy2wysla2ojh32z6ywe"
+      "sha1": "179d1fc190a6cac48c8a4852adc67703adeac9e2",
+      "path": "bafkreiduni6yykx2ep4fbtbwybi7timnoralcm4yro54hxitffn6ec5tem"
     },
     {
       "recommended": false,
@@ -182,8 +196,8 @@
       ],
       "type": "snapshot",
       "version": "1.20.2-pre3",
-      "sha1": "f08eec4f450ff73bdf4c8edda9c02233cc8b86c2",
-      "path": "bafkreidzzwsqz47ni5sndzkyb2p53onwezlxiseyyuvwmdre4fgpywukkq"
+      "sha1": "48a8e3d12c878827784e0f68ac46759b8a5b579c",
+      "path": "bafkreiffev3fmuh26qqpvjdfbix4mwqsvjc7thyw2zxuxtsyaeuwfctxdi"
     },
     {
       "recommended": false,
@@ -196,8 +210,8 @@
       ],
       "type": "snapshot",
       "version": "1.20.2-pre2",
-      "sha1": "fd352a74df55cd77166ff5cad1220eba488fb7ea",
-      "path": "bafkreiduuso3opdqx72remuqfnks5wtpnseayeu5hya3ks5tw6qpdwjnfa"
+      "sha1": "12e7fb32763f8f9bfff4d3b95f2be5d550e270cd",
+      "path": "bafkreiglbm7us3baqfzvxki6tt4stcmq63gxwhntkjeeearnrsvarcx6ku"
     },
     {
       "recommended": false,
@@ -210,8 +224,8 @@
       ],
       "type": "snapshot",
       "version": "1.20.2-pre1",
-      "sha1": "8d1c4166004ea382394ad79d9e48a1e2c9881c44",
-      "path": "bafkreidar4nsyzmn3hqu2d3baifdc4udkbgfyldb3kkku5vkp62ge76ufe"
+      "sha1": "c222ee9693378f3cd3b946391245b9319931ebe2",
+      "path": "bafkreif2zptmrgm3msrs7hmmgs7pu2xtoxqhnxncrvmrb3zyyfvqnczl3y"
     },
     {
       "recommended": false,
@@ -224,8 +238,8 @@
       ],
       "type": "snapshot",
       "version": "23w35a",
-      "sha1": "6e85b774a827ae9843390b52a1aa2d17d6a8763c",
-      "path": "bafkreihfxe2yuyiby6wtoqo7up6azsklrmjkq4nw66btpqzv2v5wso4ely"
+      "sha1": "9f57acab63eb535bedb23f256321747f2a9bb779",
+      "path": "bafkreifbp6mmzqg2rtfvxvvj4gqigdvubjrsj7qf3v44xbihfj7wdbgwrm"
     },
     {
       "recommended": false,
@@ -238,8 +252,8 @@
       ],
       "type": "snapshot",
       "version": "23w33a",
-      "sha1": "34cfe0c5078eb0cf443128e60875af44a100d2f1",
-      "path": "bafkreialykuke66bexdt2cwsva7acyqvz2sf44hc4eqltvlpnveg5ipxw4"
+      "sha1": "e6eaff4ef56e4b886713ef8b15224a294b136f61",
+      "path": "bafkreidosciebvlvl4ia5uteniug2nxzmnqnqy76r7qvwcan35fllhqohq"
     },
     {
       "recommended": false,
@@ -252,8 +266,8 @@
       ],
       "type": "snapshot",
       "version": "23w32a",
-      "sha1": "78feea7c0471c74e5d67605bdb9adad98a080663",
-      "path": "bafkreich46cbiv7tfjzrsnchd2jwrzfevsynbb6dr66mgzy3gx5osrazsy"
+      "sha1": "5aaf508838bfb0df3860910bd4fba5b119714992",
+      "path": "bafkreiamm5dgjrvjp7bsod6wmprsywfmpb4hnu43c6pfnbypp4l23kdccq"
     },
     {
       "recommended": false,
@@ -266,8 +280,8 @@
       ],
       "type": "snapshot",
       "version": "23w31a",
-      "sha1": "a2fc8c553add9f7a46a8b09ff8c2855b745344c3",
-      "path": "bafkreif7noyrqmoq3pkafd2zcelf2rawkgu4hpfebflfxepbpw2i3ywl3a"
+      "sha1": "c74f4d2cc8a02d510b8002257c89604e596e2631",
+      "path": "bafkreigx27s7cizvtqytvjfvjs3hivqxl4vmdth3m53a52dybwjpphzxoy"
     },
     {
       "recommended": false,
@@ -280,8 +294,8 @@
       ],
       "type": "release",
       "version": "1.20.1",
-      "sha1": "474bcefe59ed131753748fc5093d920fe01694e5",
-      "path": "bafkreien2lv7d7cumr7vrunnwjpcfz2cc4mgikfouqzdmqikrjoidp2xz4"
+      "sha1": "f6020060ca1d2c037fa7a55c026b069848f962f1",
+      "path": "bafkreidj72fud4gxxtuqlrlvmm3yuof4jdaz3rs3vymp55sugtn3ttdkuq"
     },
     {
       "recommended": false,
@@ -294,8 +308,8 @@
       ],
       "type": "snapshot",
       "version": "1.20.1-rc1",
-      "sha1": "f465610a2f696d4a3eead8cd9086e842b1c6ad3f",
-      "path": "bafkreibqsjyovrftlkp5g7dj4bt45kj6k3atoiuo3muqtrydw32m3fb7re"
+      "sha1": "bfd88a6c5a04dfbc0c490a9b9adcabe19b6a8bc0",
+      "path": "bafkreifmhhmc5mfj7rqk42eq7z7gbzot4zjmmglbhovvf6nscsmpb6jzyu"
     },
     {
       "recommended": false,
@@ -308,8 +322,8 @@
       ],
       "type": "release",
       "version": "1.20",
-      "sha1": "01b7faa6243adee805660377ec265cee1e560c10",
-      "path": "bafkreidfyyv7ngfpagbxxlueqdsrfrdjpbajqfom6ehy65qh5mov47fspi"
+      "sha1": "1d41b10a064e205d2e4d548d6fbed5714d5a32f2",
+      "path": "bafkreidrieunh4bncll6pmte44guxw5usmddzncazjunzye34bz6p5mthe"
     },
     {
       "recommended": false,
@@ -322,8 +336,8 @@
       ],
       "type": "snapshot",
       "version": "1.20-rc1",
-      "sha1": "e90e06755e99063a739d4c723eb1e570dfb1808e",
-      "path": "bafkreigifp3hbrklirsscq6abhoju2bwa3e352hkejgl2xup2izne5nzmu"
+      "sha1": "355bf64d843e99c7149f407be08fe12ece273362",
+      "path": "bafkreid3udzh6mtv2rxjtyqj7zdbopvc47kubp7uay67lsqfdkk6ak3r4q"
     },
     {
       "recommended": false,
@@ -336,8 +350,8 @@
       ],
       "type": "snapshot",
       "version": "1.20-pre7",
-      "sha1": "e944c75ca8a8b661074b2a8d92b8611d560d91e1",
-      "path": "bafkreibljvipfanfmjrslhfrgjgzgc2jz5eo4clcwdrh6ax7evky5kx63e"
+      "sha1": "028e04be5db47e59d695467ff793984c0dddbf4c",
+      "path": "bafkreieyusv77vd53cz5yf35ej6e7ricayvbzkcjz2jfxk3y2obbkn6uni"
     },
     {
       "recommended": false,
@@ -350,8 +364,8 @@
       ],
       "type": "snapshot",
       "version": "1.20-pre6",
-      "sha1": "540719a89ff9f92287f5428a0dd7f1bf884794f6",
-      "path": "bafkreihmjnd2ksumcmrfsbo53phqcalajw6vgax3wmufhbkzhkk4wd3btm"
+      "sha1": "6f3713b48e77a807968992893ded62679ae690c0",
+      "path": "bafkreiahvmobx3bgwgjrjyyxeaxjq2te5bqfqycqmkakxtsehnbx4me65u"
     },
     {
       "recommended": false,
@@ -364,8 +378,8 @@
       ],
       "type": "snapshot",
       "version": "1.20-pre5",
-      "sha1": "4fe9ed2612623f1e35fb1a6385d6150cdb84780e",
-      "path": "bafkreidggkw7rt2fcx7cg67uajmyiu5wm2rr6hsz42hwuagzsc2fw62qce"
+      "sha1": "58fbee73cc14c0c046043631542aa9ff95c30ac5",
+      "path": "bafkreid4brw56ergcc23wk3ilmdzgemt2cb32zkerxwihw7xdswtvme5qu"
     },
     {
       "recommended": false,
@@ -378,8 +392,8 @@
       ],
       "type": "snapshot",
       "version": "1.20-pre4",
-      "sha1": "a299ed98bf33d3481f8e3dbb953ed051e12f2b93",
-      "path": "bafkreicr56pk6kso4g7qvhkip6epi4jfkxszetynqiku5bf43c37ldypmu"
+      "sha1": "6283f79e508666863f6c59cec9b3f5ee763d81cc",
+      "path": "bafkreifcnt4zs4wbapxwvwhclo4cpqetancsi5pph6uxnym7cg2sjtlyeq"
     },
     {
       "recommended": false,
@@ -392,8 +406,8 @@
       ],
       "type": "snapshot",
       "version": "1.20-pre3",
-      "sha1": "4dfc1a599bfc05e8dd5763d37fa41fae88bb488a",
-      "path": "bafkreigmtw7fqu7fijhpuvtnj55tvtoty2wvaas2zl7ydzepcvyadlx7x4"
+      "sha1": "985b89fa3fc06ab40f82d300200744582b22302c",
+      "path": "bafkreiafzuw5vrvdrseaplvta5isibrrgqduihzgpzmbcqcqoejn7niw2e"
     },
     {
       "recommended": false,
@@ -406,8 +420,8 @@
       ],
       "type": "snapshot",
       "version": "1.20-pre2",
-      "sha1": "4c8b5550ac3926dbae273a1000e205a320faeff2",
-      "path": "bafkreich55lzckcb6swygeplyz7rwiygadsh3m2jtqyznsfdbggzvetll4"
+      "sha1": "309e3cdca1e8b4b06143e3b1392b75ae98d8ada0",
+      "path": "bafkreibuxxsigsss2ub6gauqy4erlpuvynaofcnhlyhyiuhldh65snbyfe"
     },
     {
       "recommended": false,
@@ -420,8 +434,8 @@
       ],
       "type": "snapshot",
       "version": "1.20-pre1",
-      "sha1": "ff504cfe5d8cab4aa392f4c4a3fe1fed926467d6",
-      "path": "bafkreidfdxtk6ziuhojb6v2ibgjko4wnbvrbpx5kxcncjfwppccpgysxwq"
+      "sha1": "1343769e6d0bd7b1e0a0bf30b0f0f9fba582b741",
+      "path": "bafkreifxkaxv2f5ngxhvd4avyvojbfw3ju4y3yqby4hxndj45ipk3glyn4"
     },
     {
       "recommended": false,
@@ -434,8 +448,8 @@
       ],
       "type": "snapshot",
       "version": "23w18a",
-      "sha1": "22cf6e3aec057d8b3cf4700239c2f69058bf5fa1",
-      "path": "bafkreihm4deq2p5lf6ql5jbngo4v6n23bevmrbpzrldiyup452mdxnmkou"
+      "sha1": "ddec8bbc3f47bf0962b624360c724bd0e919f4a4",
+      "path": "bafkreihcnm6rccwmfxctj2kfnj6zx3k2zhwcw7cagjoeg2xlcztrqknmv4"
     },
     {
       "recommended": false,
@@ -448,8 +462,8 @@
       ],
       "type": "snapshot",
       "version": "23w17a",
-      "sha1": "d352e1822d24de2c2c995f6c0bb577bd943eb7fc",
-      "path": "bafkreiakhjsr3j2uuvefkcwo7vmnslbm7ysoa2mt2wcyrowo36o7nmrmne"
+      "sha1": "88965f64d53f130bbde4edaf3ea4a08170b7ce5d",
+      "path": "bafkreialosezso6onxuhjrkrk2ykloagikha2ozd5qiuaxuedt3nfsb4ty"
     },
     {
       "recommended": false,
@@ -462,8 +476,8 @@
       ],
       "type": "snapshot",
       "version": "23w16a",
-      "sha1": "36d2d4f1e3d2a0f82f44ca8685344fb4c8c4458b",
-      "path": "bafkreibdo35ewtxw7csloeounoptqqryx63lxl5qllfxpd6logyicyoa6e"
+      "sha1": "2dccdea4f81549c0e53bd1cfc1dbf525e818bc75",
+      "path": "bafkreigwkstihbpihushuaupt2m2flwgcp2ikbm5dmpya25vyyhqwcrloe"
     },
     {
       "recommended": false,
@@ -476,8 +490,8 @@
       ],
       "type": "snapshot",
       "version": "23w14a",
-      "sha1": "119dd388d89a3aef1f4be28eff3af8393ebbc8db",
-      "path": "bafkreibmukrid4cgjuhe7wv3snyah2gy3rpvesalpjvgqkvtmzubj3quxq"
+      "sha1": "3e70368b15e91e62c00dee639ddb63a24a3f2b5e",
+      "path": "bafkreigwllzrgksdme6niptoogkt6sfyilyzpe7j76qyo2scxd6tyas5x4"
     },
     {
       "recommended": false,
@@ -490,8 +504,8 @@
       ],
       "type": "snapshot",
       "version": "23w13a_or_b",
-      "sha1": "ded9f7eb2d66d41c753a8f5089601f195d2b006f",
-      "path": "bafkreidwjvtejhwi6qqgeqsuwah43qancrz6qcu6srcs2ovuofkrjb73we"
+      "sha1": "722c3c626f03568d0a1fb3adca5208958881bb03",
+      "path": "bafkreiewkjupctqmst4ehtfqax2yfm43wehaebqmsbxjtcpecfzsfugabe"
     },
     {
       "recommended": false,
@@ -504,8 +518,8 @@
       ],
       "type": "snapshot",
       "version": "23w13a",
-      "sha1": "b30f6bbffcfd995a4b629a0885ebb10ce5ccb21a",
-      "path": "bafkreifzssbxtdqkfzwzvtarti6sfjdxlcd2is3a4rovgjzty3pztvsjjy"
+      "sha1": "71bc649f73e09b0122b175e926666e796725466c",
+      "path": "bafkreiaeuuozbjfddwfs7cdnrdlzrgzvq7vdbjf76hk3hgyfjmnciiipk4"
     },
     {
       "recommended": false,
@@ -518,8 +532,8 @@
       ],
       "type": "snapshot",
       "version": "23w12a",
-      "sha1": "d0079980032f64485ba7b8530e671939ff70596b",
-      "path": "bafkreiawbsa472iuennfkdc5vqirj3two4tetpgszcbfbmwcfgcrljwh54"
+      "sha1": "909a0d56527f5266bda30c4398bd3173945e0c18",
+      "path": "bafkreig7kf52as5nhtqgsnobq7xcrkh5oxsedcfqo47w3rezfbdpo3nhva"
     },
     {
       "recommended": false,
@@ -532,8 +546,8 @@
       ],
       "type": "release",
       "version": "1.19.4",
-      "sha1": "8c71f5bbf6693b34859307c6955418a65452cf98",
-      "path": "bafkreia7s3vie2hjk2qguyqkdudo6j2ucjxsit7mmfgqh5k2qd6kujde6a"
+      "sha1": "de8c3b25db64823a6f3f7dcbffd15db9937df494",
+      "path": "bafkreiejn2mhbclwlqowv6cqvt47kn452wxqnzft4utahqea2ezc2gatma"
     },
     {
       "recommended": false,
@@ -546,8 +560,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.4-rc3",
-      "sha1": "19063665b0a0ae6e9d9ac6037b7a5826cbbc818f",
-      "path": "bafkreiebgtmgk7kgekzg7yuly53a6otgfsywazqwalubk5yzqkbld6pgd4"
+      "sha1": "04ae3423bb2a971f98d4c101b247e45aaec2000a",
+      "path": "bafkreiemdwdrwr2lhmzaedeswhgkv746fke4cvcfqo2vgd3h3s5iwovyta"
     },
     {
       "recommended": false,
@@ -560,8 +574,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.4-rc2",
-      "sha1": "9621d8e27e0297633932c3d56c32a7425f7c6bec",
-      "path": "bafkreicod7xdyr7sg3zzsn7s7p33nl4iy2wmy6hyi5kasydjzwzujrpx7e"
+      "sha1": "d18666507f762dadf108a748a78e29777e0189c7",
+      "path": "bafkreie6std55lzhc6ay3npbxhno45fbsj3jyy2uduxxlzyssz3khxnnii"
     },
     {
       "recommended": false,
@@ -574,8 +588,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.4-rc1",
-      "sha1": "aa507a45a8add18fdfbfc525847574111ea1e63d",
-      "path": "bafkreif3hcqmdr4hcpmkegsjmqhuzjuzwrt6ckvynx7s53ilyd5osoh3bm"
+      "sha1": "354d074ba72e96bb248692da6bbb931ea903bf2c",
+      "path": "bafkreidjhmsmvudb4qay2ahpqunaxqialxuju3aiy4zkt2t5fqxdqkajwq"
     },
     {
       "recommended": false,
@@ -588,8 +602,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.4-pre4",
-      "sha1": "b00633c478dd19e49b68778841ec20d875239af9",
-      "path": "bafkreif266wthgk72if4zwgp63mjashhvyalsojkhm23nzmtw4t75bptxe"
+      "sha1": "996a190f0a842053110fca93f673f13afd877568",
+      "path": "bafkreif6jaucf4iqw3kyetvtcksdphhu5jy3yljjkkoyerdewkpq7jy7pq"
     },
     {
       "recommended": false,
@@ -602,8 +616,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.4-pre3",
-      "sha1": "46ba1f024359bdab4ca5c6b17cfaba09e42a9cfa",
-      "path": "bafkreihu6umajlltgebvhliszlw66y6hnv2jiufycw7bt5qkkxhgrda3ve"
+      "sha1": "4dd38e16f6608099d69594d4723631e6bf3b9a71",
+      "path": "bafkreifoeoj53b7uvgtzrc34no7bbysaasxttmambyafwkesb53rftsrs4"
     },
     {
       "recommended": false,
@@ -616,8 +630,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.4-pre2",
-      "sha1": "74465ced0c80d4336007c6018c01efb70141c9f5",
-      "path": "bafkreiea4phql4jszvblkwamst4zgr6xhlf2u7kpnuxxzqco5lbmu4ik5q"
+      "sha1": "b35334139e78a39690a5ec0e9aacb0ecad4e720e",
+      "path": "bafkreifzbsyywb3gr6ajgtml53ljey3ezowjfbq4ej6ldz6uueacn6efqu"
     },
     {
       "recommended": false,
@@ -630,8 +644,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.4-pre1",
-      "sha1": "e311666f53386812b3864202ecf32f6349ea7b83",
-      "path": "bafkreicajbtt6hd6mbgncjom4h4lk6hrtvdqj6wkrbkls65ipp773s4weu"
+      "sha1": "0191ce795c7d2c1a3233a6007639ea219cc4d783",
+      "path": "bafkreiexpvdsoirgx2sh3nflhbjo576wdenomgrd7olpox3t5bjpfclboq"
     },
     {
       "recommended": false,
@@ -644,8 +658,8 @@
       ],
       "type": "snapshot",
       "version": "23w07a",
-      "sha1": "6c0a92bb5ae40c55aae8658f58685882a7972ce9",
-      "path": "bafkreibk7u5jpq3cshdhgunew4phwuoa4koqblnidb5yytn5ljjkz7cajm"
+      "sha1": "2d55eb729c9026a640885fced405e64cc0881102",
+      "path": "bafkreigdzp6qzczmkopjiwfaaurvntcdiubh77vgaiaz5xsb2pliqomgpa"
     },
     {
       "recommended": false,
@@ -658,8 +672,8 @@
       ],
       "type": "snapshot",
       "version": "23w06a",
-      "sha1": "1a27ee6818359cb2b6392413926ff63d49b9061d",
-      "path": "bafkreicsou6ianhtec5z6xopvjagcmfjjanvmk2glrpoojbx4msh3gn3ym"
+      "sha1": "8f882e997fb5c0fa741b855013603a2a3403d905",
+      "path": "bafkreid4swnrvalc5u6krm63pziczslh57zeb2rjgwektf323w6pazdvea"
     },
     {
       "recommended": false,
@@ -672,8 +686,8 @@
       ],
       "type": "snapshot",
       "version": "23w05a",
-      "sha1": "c3b1b4e04e576d3481ce49181d361e893b16e9ec",
-      "path": "bafkreigwfcrp7nrrmtytxpekkxvaxyanlbvhnz7lidjpzkakkqriqxenwm"
+      "sha1": "93cbadaf43d6e0101f071fe20669552dd24188bd",
+      "path": "bafkreibez32k5y5laawjthj6wddmfksen5and75qewlznv5fvbp3x4vhdy"
     },
     {
       "recommended": false,
@@ -686,8 +700,8 @@
       ],
       "type": "snapshot",
       "version": "23w04a",
-      "sha1": "f274cedc0934a0f7de854336e453682e41410783",
-      "path": "bafkreiblnbe7r2hpprnhefiwc6ktwu63kkxihp57jbyb72nihe7ioo5xae"
+      "sha1": "9cbd1e947bb669a919d45d51b918ce58a4cf3c84",
+      "path": "bafkreihu7r3fgwdfsgptknjiquaihgyftnx7bc3jlwkmnmmo3dd7smvp3i"
     },
     {
       "recommended": false,
@@ -700,8 +714,8 @@
       ],
       "type": "snapshot",
       "version": "23w03a",
-      "sha1": "7e6718ac4fc05ab89950cf8451d79df7f46c8b92",
-      "path": "bafkreicheeytd2b4bnw2azmy443lxifloswjpeltwjx3ubrhq324mf5ax4"
+      "sha1": "e13093b8fda1a451b798f662d7abc3beff276f38",
+      "path": "bafkreihy7z5zqlw2v4oie3rlfmo6lhtlr35zciobfai3fnhxj23qie5hlu"
     },
     {
       "recommended": false,
@@ -714,8 +728,8 @@
       ],
       "type": "release",
       "version": "1.19.3",
-      "sha1": "1ae32b27448b60df63db3ccbb40c75dddbad3414",
-      "path": "bafkreicn7ewjdgfvzcsdag53ry3g6gxqzxr26uw2gkfpsartjtlvuvt7vm"
+      "sha1": "d8466fe5dc7718c2946f8172b4f8abd4c9de0fb2",
+      "path": "bafkreidkyweka5g44dviaycmrvssscdgizjf7o4cou4keawsdmkjc5dpea"
     },
     {
       "recommended": false,
@@ -728,8 +742,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.3-rc3",
-      "sha1": "6e28313c9af8074c9449fb0022d5e9e79a09d45c",
-      "path": "bafkreibueatobql654ulj7mugkvvmef273idjjkiflrr4tedw263iafp6q"
+      "sha1": "7774f95d44eeea7eb8ef6ce306767f475d067cb2",
+      "path": "bafkreihg5njxdkzlgpor2omogir7lqdfh56rc4ok6sdfvswiaao35t6smy"
     },
     {
       "recommended": false,
@@ -742,8 +756,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.3-rc2",
-      "sha1": "b6dc41ae63e79ab135fbf1cad67a90587f9ab4bd",
-      "path": "bafkreiadeacef245hazwpyn7nmzdndyp2xugtvjjilb4wolrjwmbtlcat4"
+      "sha1": "b604648011a3b26508c130b1c3f85882a3188e07",
+      "path": "bafkreicu6m6rq6fl2slwejqfpuxc4rfnnppodi3p4nwfmc5iti4hypjwwe"
     },
     {
       "recommended": false,
@@ -756,8 +770,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.3-rc1",
-      "sha1": "4cabe7c9c5a2e5c0fe3005c9d128cb0a2a882718",
-      "path": "bafkreig7vs6mklwsc3rl23bqzhpdcm2ktg4stz657i7tf4qvqp7ec4mpba"
+      "sha1": "2be11cd261cab8ec6d3b8170361ad7dcd8f3acc6",
+      "path": "bafkreidjlwm2w3kounkfrkizi7zly6k6q77i66yab6vlrxfl7hwi5asw4q"
     },
     {
       "recommended": false,
@@ -770,8 +784,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.3-pre3",
-      "sha1": "f8d91a911267bc659610b9a204830270e3040475",
-      "path": "bafkreidceu6iyeglhegyuhnmms25srsmsrctcsqctr5ypu3ccxc6h2w5su"
+      "sha1": "f2dc116a340e51e23852d227c962d1fa799337a7",
+      "path": "bafkreigzfsuoivr2ghhftjhokalxdmqi3s2ne3ti2ucnw5modsprjktnau"
     },
     {
       "recommended": false,
@@ -784,8 +798,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.3-pre2",
-      "sha1": "8aa08820eeaa99674432c75f66e8ae62a419354f",
-      "path": "bafkreifyolqwjlaic5xuvij34sgxi3r2p5rcxlf3ca4qoa3hykan4h65wa"
+      "sha1": "78d3976abcc62127c5160b0db68e05cac0f28dad",
+      "path": "bafkreibqu75q664xerdbaofimxs3trkrcstdejmohflikuxqgmkjby7yti"
     },
     {
       "recommended": false,
@@ -798,8 +812,8 @@
       ],
       "type": "snapshot",
       "version": "1.19.3-pre1",
-      "sha1": "ff8abf5883be0c799a2901fdc7f365793d362051",
-      "path": "bafkreidrgnyimngzmcqlj6qgdh573yqjj7gm2elcrcayj5cnrmezcanrue"
+      "sha1": "ed6fb06453712221732c3f20a723eef461acfe56",
+      "path": "bafkreicp5ewegydo3vkaywuw77pp6wbarcuy3uppor4unp5tvjwk3xno4e"
     },
     {
       "recommended": false,
@@ -812,8 +826,8 @@
       ],
       "type": "snapshot",
       "version": "22w46a",
-      "sha1": "8fb0341e4c44ac50a134775d9c6781c8a83af4ec",
-      "path": "bafkreifirrhd5l7vjptq7mm272b2pyb3kc6aavsmghgjepqk34zmo6twga"
+      "sha1": "a1f81c7b107f314f54e0824eb967356ea4ada68a",
+      "path": "bafkreiazqosjuvblfylh7abbcokdrdrsdnzj4gormof4dsw3fuyb3xdrci"
     },
     {
       "recommended": false,
@@ -826,8 +840,8 @@
       ],
       "type": "snapshot",
       "version": "22w45a",
-      "sha1": "93dff3eddf1d4c4b37bcc92a24b19abf61555c8b",
-      "path": "bafkreidgaccwbj5joraajqb25kpbois7pnfspeupl6loisi5xcdhu2bhyq"
+      "sha1": "a38402e0f8e1821ac4f94228d389f38fde4b6e7d",
+      "path": "bafkreihlo3wz55pl7kawijzho6odgtsqbnbuxhdnvlbqfofwgbpwv7augm"
     },
     {
       "recommended": false,
@@ -840,8 +854,8 @@
       ],
       "type": "snapshot",
       "version": "22w44a",
-      "sha1": "68672adeed6b74c817f9b149770d3678628c6ca7",
-      "path": "bafkreigposqpfw7otkdzbc2nasswswflia7wkbqisvfq6fzbkfz2wnl6um"
+      "sha1": "1490298cf07e591e87f983547812d4162afe6581",
+      "path": "bafkreic7menzlusvdym7sfzzafw7ay5ooikl2g4p4ltic2yq2g2b24iubi"
     },
     {
       "recommended": false,
@@ -854,8 +868,8 @@
       ],
       "type": "snapshot",
       "version": "22w43a",
-      "sha1": "45e9fd5cef089cc675ce34fb00e0bc3179682bc8",
-      "path": "bafkreiednh4zez7wx5b33726tox6y42iruqcyx476f4ekzluza74b4xk3e"
+      "sha1": "52125be948f481e8da8e05bd1e672836c84be6b4",
+      "path": "bafkreib5akmjd2cekv636s7go4ktyztqah3sxtuiijxqba7rl4t3mqsrye"
     },
     {
       "recommended": false,
@@ -868,8 +882,8 @@
       ],
       "type": "snapshot",
       "version": "22w42a",
-      "sha1": "4b88dc9c612ab4e42c0af56a3e441b082359e6ad",
-      "path": "bafkreie7twjvhnbvdlak2t45l5oisdykm3f2x2bxnt34dtlbq7er35af3y"
+      "sha1": "7e21e47a98540ece21de46ce2c8a746a95a8c09b",
+      "path": "bafkreifvcxvmkdr2ktxisvnuncvahkgumh6lzfvtkwrwmzgebsgl2insaq"
     },
     {
       "recommended": false,
