@@ -4,11 +4,11 @@
     "FirstThreadOnMacOS"
   ],
   "assetIndex": {
-    "id": "11",
-    "sha1": "4121784ea4556746b937f00e8aca0558a670c5dd",
+    "id": "12",
+    "sha1": "cd28d2581c2ebd5b52be19bf0c7398427bbfb810",
     "size": 951733,
-    "totalSize": 623892447,
-    "path": "bafkreifczfhmcoopntckibcb2js74g4h6mv3ia6szkhhr6lizc3pirzi4u"
+    "totalSize": 623892459,
+    "path": "bafkreiegktnpjfplj4iggl62esruho6gdyp7hu6a4zuehx545dndl27u2u"
   },
   "compatibleJavaMajors": [
     17
@@ -440,17 +440,17 @@
   "mainJar": {
     "downloads": {
       "artifact": {
-        "sha1": "265ca2072f7c3a9e0dae8c4abe223431089d9980",
-        "size": 24339738,
-        "path": "bafybeigk72cr4zqiyxtqcb6fiwokmggnz7g7awnkjrksgxlkaoquepozru/client.jar"
+        "sha1": "8e9187433bab399843d78585e83bf812422a507d",
+        "size": 24429272,
+        "path": "bafybeigbls76fr5tkyy4hh376zjohpkbyyh5pkmigfhxq4hv2vgibjjylq/client.jar"
       }
     },
-    "name": "com.mojang:minecraft:23w45a:client"
+    "name": "com.mojang:minecraft:1.20.3-pre2:client"
   },
   "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
   "name": "Minecraft",
   "order": -2,
-  "releaseTime": "2023-11-08T13:59:58+00:00",
+  "releaseTime": "2023-11-22T12:21:26+00:00",
   "requires": [
     {
       "suggests": "3.3.2",
@@ -459,5 +459,5 @@
   ],
   "type": "snapshot",
   "uid": "net.minecraft",
-  "version": "23w45a"
+  "version": "1.20.3-pre2"
 }
